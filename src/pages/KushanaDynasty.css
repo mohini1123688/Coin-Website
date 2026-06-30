@@ -1,0 +1,73 @@
+.kushana-page { max-width: 900px; }
+
+.section-heading {
+  margin-top: 3rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.9rem;
+  border-bottom: 1px solid var(--ink-line, #ddd);
+  padding-bottom: 0.5rem;
+}
+.section-heading:first-child { margin-top: 0; }
+
+.media-row {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+.media-row--left { flex-direction: row; }
+.media-row--right { flex-direction: row-reverse; }
+
+.media-row__figure { flex: none; width: 220px; margin: 0; }
+.media-row__figure img {
+  width: 100%; height: auto; border-radius: 6px;
+  border: 1px solid var(--ink-line, #ddd);
+  box-shadow: var(--shadow, 0 6px 16px rgba(0,0,0,0.15));
+}
+.media-row__figure figcaption {
+  font-size: 0.8rem; color: var(--muted, #777); margin-top: 0.5rem; line-height: 1.4;
+}
+.media-row__text { margin: 0; color: var(--parchment-dim, #444); flex: 1; }
+
+.plain-text { margin: 1.5rem 0; color: var(--parchment-dim, #444); }
+.plain-text p + p { margin-top: 1rem; }
+
+.coin-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.coin-gallery__item { margin: 0; text-align: center; }
+.coin-gallery__item img {
+  width: 100%; height: auto; margin: 0 auto;
+  border-radius: 6px; border: 1px solid var(--ink-line, #ddd);
+  box-shadow: var(--shadow, 0 6px 16px rgba(0,0,0,0.15));
+}
+.coin-gallery__item figcaption {
+  font-size: 0.75rem; color: var(--muted, #777); margin-top: 0.5rem; line-height: 1.35;
+}
+
+/* Single wide image used for two-sided coin photos (obv/rev side by side) */
+.wide-figure { margin: 2rem 0; text-align: center; }
+.wide-figure img {
+  max-width: 100%; height: auto; border-radius: 6px;
+  border: 1px solid var(--ink-line, #ddd);
+  box-shadow: var(--shadow, 0 6px 16px rgba(0,0,0,0.15));
+}
+.wide-figure figcaption { font-size: 0.8rem; color: var(--muted, #777); margin-top: 0.5rem; }
+
+.coin-caption {
+  margin: 0.5rem 0 2rem;
+  padding: 0.85rem 1rem;
+  border-left: 2px solid var(--gold, #b8924a);
+  background: var(--ink-soft, #f7f4ee);
+  border-radius: 4px;
+}
+.coin-caption__title { font-family: var(--font-display, inherit); margin: 0 0 0.35rem; font-weight: 600; }
+.coin-caption__line { margin: 0; font-size: 0.85rem; color: var(--muted, #666); line-height: 1.5; }
+
+@media (max-width: 680px) {
+  .media-row, .media-row--right { flex-direction: column; }
+  .media-row__figure { width: 100%; max-width: 260px; }
+}
