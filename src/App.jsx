@@ -10,6 +10,9 @@ import SouthernIndianDynasty from './pages/SouthernIndianDynasty';
 import MughalsIslamicDynasties from './pages/MughalsIslamicDynasties';
 import DeccanMarathaRulers from './pages/DeccanMarathaRulers';
 import EastIndiaAndRaj from './pages/EastIndiaAndRaj';
+import PrincelyStates from './pages/PrincelyStates';
+import IndependentKingdoms from './pages/IndpendentKingdoms';
+import GoldenAgeGupta from './pages/GoldenAgeGupta';
 
 export default function App() {
   return (
@@ -25,6 +28,9 @@ export default function App() {
           <Route path="/mughals-islamic-dynasties" element={<MughalsIslamicDynasties />} />
           <Route path="/deccan-maratha-rulers" element={<DeccanMarathaRulers />} />
           <Route path="/east-india-and-raj" element={<EastIndiaAndRaj />} />
+          <Route path="/princely-states" element={<PrincelyStates />} />
+          <Route path="/golden-age-gupta" element={<GoldenAgeGupta />} />
+          <Route path="/independent-kingdoms" element={<IndependentKingdoms />} />
         </Route>
       </Routes>
     </BrowserRouter>

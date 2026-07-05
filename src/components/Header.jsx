@@ -10,6 +10,9 @@ const links = [
   { to: '/mughals-islamic-dynasties', label: 'Mughals & Islamic' },
   { to: '/deccan-maratha-rulers', label: 'Deccan & Maratha' },
   { to: '/east-india-and-raj', label: 'East India & Raj' },
+  { to: '/princely-states', label: 'Princely States' },
+  { to: '/independent-kingdoms', label: 'Independent Kingdoms' },
+  { to: '/golden-age-gupta', label: 'Golden Age (Gupta)' },
 ];
 
 export default function Header() {
