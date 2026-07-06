@@ -5,7 +5,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Qutub-Minar_600-1280x720-2-1024x576.jpg',
+    img: '/images/uploads/2019/12/Qutub-Minar_600-1280x720-2-1024x576.jpg',
     caption: 'Qutub Minar, Alai Darwaza, and Quwwat-Ul-Islam Mosque',
     text: `By end of the 8th century AD, a new chapter had began in the Indian history, it was an arrival of Islam. By this time, many Arab tribes were united and had conquered Iran (Persia). The wealthy cities of northern and central India and rich ports of western coast were great temptations. The repeated attacks on the Hindu Shahi of Kabul, the proud descendants of Kushan ruler, Kanishka, was the first successful step. This Brahmanical Shahi of modern Afghanistan & Pakistan, whose rulers patronized various schools of Buddhist and Hindu arts and popularized 'Bull & Horseman' type of coins (shown in 'Western & Central Indian dynasties' section), put up a brave struggle, but eventually perished by the 8th century AD. Arabs conquered Afghanistan, Baluchistan and later seized Sindh region (located in modern Pakistan), which became the first Islamic territory in the Indian subcontinent.`,
   },
@@ -22,8 +22,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/gaz1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/gaz2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/gaz1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/gaz2.gif', caption: '' },
     ],
   },
   {
@@ -51,8 +51,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/gho1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/gho2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/gho1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/gho2.gif', caption: '' },
     ],
   },
   {
@@ -89,8 +89,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/bb1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/bb2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/bb1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/bb2.gif', caption: '' },
     ],
   },
   {
@@ -115,7 +115,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/nbal.gif',
+    img: '/images/uploads/2019/12/nbal.gif',
     caption: null,
     text: null,
   },
@@ -154,8 +154,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/nala1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/nala2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/nala1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/nala2.gif', caption: '' },
     ],
   },
   {
@@ -182,7 +182,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/babr.gif',
+    img: '/images/uploads/2019/12/babr.gif',
     caption: 'Babar, 1526-1530 AD (932-937 AH), Silver Dirham, Minted at Urdo in 935 AH, Weight: 3.2 gms',
     text: `Babur, a Chagatai Turk, was descendent of Timur-Lang and Chingiz Khan, the Mongol warriors. Lodi dynasty had followed Khiljis at Delhi and Ibrahim Lodhi was the ruler. Babur when arrived, he was suitably impressed; the Lodhi army was massive, war elephants being the first line of defense, against which significantly smaller Babur's army was no match. However, he had a new weapon, used first time in Indian subcontinent, gun powder/canon. Elephants were targeted specifically, and their scattering brought the total chaos. Battle-hardened army of Babur, made of mongol, central Asian and Afghan horsemen was quick to cash on, the battle was decisively won. Thus, Babar founded the Mughal empire by defeating Ibrahim Lodhi at the first battle of Panipat in 1526 AD. The Mongol descendancy eventually fetched the name 'Mughal' for his newly founded empire in northern India (the word Mughal is Indian derivative of Mongol). He later won another decisive battle with Rana Sanga, a hero of Rajput warriors. Rajputs fought with desperate valor but lost in battle of Kanwa, near Agra in 1527. But Babur could not enjoy the fruits of his hard won victories, he died in 1530 AD leaving his unorganized empire to his son Humayun.`,
   },
@@ -196,7 +196,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/hu.gif',
+    img: '/images/uploads/2019/12/hu.gif',
     caption: null,
     text: null,
   },
@@ -213,7 +213,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/sur-1.gif',
+    img: '/images/uploads/2019/12/sur-1.gif',
     caption: null,
     text: null,
   },
@@ -249,8 +249,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Akb1.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Akb2.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Akb1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Akb2.jpg', caption: '' },
     ],
   },
   {
@@ -283,7 +283,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/akbr2.gif',
+    img: '/images/uploads/2019/12/akbr2.gif',
     caption: null,
     text: null,
   },
@@ -302,7 +302,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Jah2.jpg',
+    img: '/images/uploads/2019/12/Jah2.jpg',
     caption: "Prince Salim, the future emperor Jahangir, enthroned; a painting, 1600 AD. The scene well replicated on rare 'Portrait type' gold coin shown below",
     text: `In Akbar's old age Salim (named after a sufi saint whose blessings gave Hira Kunwar-Akabr their only surviving son) rebelled against him and proclaimed himself an independent king at Allahabad. He even issued coins in his name as rebellious prince. Akbar died in 1605 AD and Salim took over the throne as Jahangir. Jahangir followed his father's policies and favored large number of Rajput generals (his uncles and cousins) and scholars in his court. Jahangir married a Persian woman Mehrunissa, who soon became his favorite. She was given the title of NurJahan (the vision or eye of the world). By 1611 AD, Nurjahan along with her father, I'timad-ud-Dawlah, her brother Asaf Khan and Prince Khurram (later Shah Jahan), took control of Mughal empire and dominated politics until 1622 AD. Thereafter, Jahangir's declining years were darkened by a breach between Nur Jahan and Prince Khurram, who rebelled openly against him. In spite of all the attempts, nobody could succeed in replacing him and he ruled peacefully (relatively) till his death. Although, likely to be a heavy drinker and opium eater (which he overcame in his later day), Jahangir possessed sensitivity to nature, acute perception of human character, and artistic sensibility, which expressed itself in an unmatched patronage of painting. The Indian painting was at it's apogee during Jahangir's reign. He did not patronize the conservative Islamic elements and like his father, gave his subject liberty of expression of their religious faiths.`,
   },
@@ -310,8 +310,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Jah3.jpg.png', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Jah4.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Jah3.jpg.png', caption: '' },
+      { img: '/images/uploads/2019/12/Jah4.jpg', caption: '' },
     ],
   },
   {
@@ -341,8 +341,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Jah1.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Jah5.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Jah1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Jah5.jpg', caption: '' },
     ],
   },
   {
@@ -362,7 +362,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Jahangir.jpg',
+    img: '/images/uploads/2019/12/Jahangir.jpg',
     caption: null,
     text: null,
   },
@@ -391,8 +391,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Jahangir2.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Jahangir3.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Jahangir2.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Jahangir3.jpg', caption: '' },
     ],
   },
   {
@@ -413,8 +413,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/bul1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/bul2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/bul1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/bul2.gif', caption: '' },
     ],
   },
   {
@@ -442,8 +442,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Jah6.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Jah7.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Jah6.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Jah7.jpg', caption: '' },
     ],
   },
   {
@@ -462,8 +462,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Jah8.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/jah9.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Jah8.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/jah9.jpg', caption: '' },
     ],
   },
   {
@@ -490,8 +490,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/leo1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/leo2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/leo1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/leo2.gif', caption: '' },
     ],
   },
   {
@@ -509,8 +509,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/jah10.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/jah11.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/jah10.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/jah11.jpg', caption: '' },
     ],
   },
   {
@@ -535,7 +535,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2020/03/1000m.gif',
+    img: '/images/uploads/2020/03/1000m.gif',
     caption: null,
     text: `Some of the Jahangir's coins were in gigantic in dimensions. It is mentioned in 'Badshah Nama' that on Jahangir's birthday, the Persian Ambassador was presented with 4 Gold Ashrafis wighing 400 tolas (4.6 Kg), 300 tolas (3.5 Kg), 200 tolas (2.3 Kg) and 100 tolas (1.2 Kg)!`,
   },
@@ -567,7 +567,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/jh.gif',
+    img: '/images/uploads/2019/12/jh.gif',
     caption: null,
     text: null,
   },
@@ -588,8 +588,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/SahJahanSurat1.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/SahJahanSurat2.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/SahJahanSurat1.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/SahJahanSurat2.jpg', caption: '' },
     ],
   },
   {
@@ -606,7 +606,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/shj.gif',
+    img: '/images/uploads/2019/12/shj.gif',
     caption: null,
     text: null,
   },
@@ -634,8 +634,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Aurang-rev.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Aurang.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Aurang-rev.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Aurang.jpg', caption: '' },
     ],
   },
   {
@@ -652,7 +652,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Bho.gif',
+    img: '/images/uploads/2019/12/Bho.gif',
     caption: null,
     text: null,
   },
@@ -681,7 +681,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/nfar.gif',
+    img: '/images/uploads/2019/12/nfar.gif',
     caption: null,
     text: null,
   },
@@ -708,7 +708,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/muh2.gif',
+    img: '/images/uploads/2019/12/muh2.gif',
     caption: null,
     text: null,
   },

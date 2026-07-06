@@ -5,14 +5,14 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Statue-of-Lord-Vishnu-Dashavatar-Temple-Deogarh.jpg',
+    img: '/images/uploads/2019/12/Statue-of-Lord-Vishnu-Dashavatar-Temple-Deogarh.jpg',
     caption: 'Statue of Lord Vishnu; below 5 Pandavas with wife Droupadi or Panchali, Dashavatar Temple, Deogarh',
     text: `By the fourth century AD, political and military turmoil destroyed the Kushan empire in the north and many kingdoms in the south India. At this juncture, India was invaded by a series of foreigners and barbarians or Mlechchhas from the north western frontier region and central Asia. It signaled the emergence of a leader, a Magadha ruler, Chandragupta I. Chandragupta successfully combated the foreign invasion and laid foundation of the great Gupta dynasty, the emperors of which ruled for the next 300 years, bringing the most prosperous era in the Indian history.`,
   },
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Dashavatar-Temple-1024x768.jpg',
+    img: '/images/uploads/2019/12/Dashavatar-Temple-1024x768.jpg',
     caption: 'Dashavatar Temple',
     text: `The reign of Gupta emperors can truly be considered as the golden age of classical Indian history. Srigupta I (270-290 AD) who was perhaps a petty ruler of Magadha (modern Bihar) established Gupta dynasty with Patliputra or Patna as its capital. He and his son Ghatotkacha (290-305 AD) have left very little evidences of their rule and did not issue any coins of their own (although there have been reports of coins of Shrigupta which need thorough studies). Ghatotkacha was succeeded by his son Chandragupta I (305-325 AD) who strengthened his kingdom by matrimonial alliance with the powerful family of Lichchavi, who were rulers of Mithila kingdom. His marriage to Lichchhavi princess Kumaradevi, brought an enormous power, resources and prestige. He took advantage of the situation and occupied whole of fertile Gangetic valley. Chandragupta I eventually assumed the title of Maharajadhiraja (emperor) in formal coronation.`,
   },
@@ -27,8 +27,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/kqt1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/kqt2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/kqt1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/kqt2.gif', caption: '' },
     ],
   },
   {
@@ -47,7 +47,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/sculpture.jpg',
+    img: '/images/uploads/2019/12/sculpture.jpg',
     caption: 'Ambika Statue, Metropolitan Museum of art, NY',
     text: `On Right is a sculpture of Ambika/Durga sitting on her vehicle, Lion. This sculpture made in 9th Century, found in modern Uttar Pradesh, which was part of Gupta empire, clearly show that Gupta die-makers were acutely aware of contemporary art and may even have influenced artists for generations to come. This beauatiful sculpture is currently housed in Metropolitan Museum of Art, New York, and shows striking resemblance to the reverse of the coin.`,
   },
@@ -65,8 +65,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/gup1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/gup2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/gup1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/gup2.gif', caption: '' },
     ],
   },
   {
@@ -92,8 +92,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/ash1.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/ash2.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/ash1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/ash2.jpg', caption: '' },
     ],
   },
   {
@@ -111,8 +111,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Gaja-Laxmi-Bharhut-Stupa.jpg', caption: 'Gaja-Laxmi, Bharhut Stupa' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/Gaja-Laxmi-Sanchi-Stupa.jpg', caption: 'Gaja-Laxmi, Sanchi Stupa' },
+      { img: '/images/uploads/2019/12/Gaja-Laxmi-Bharhut-Stupa.jpg', caption: 'Gaja-Laxmi, Bharhut Stupa' },
+      { img: '/images/uploads/2019/12/Gaja-Laxmi-Sanchi-Stupa.jpg', caption: 'Gaja-Laxmi, Sanchi Stupa' },
     ],
   },
 
@@ -129,8 +129,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/battle1.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/battle2.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/battle1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/battle2.jpg', caption: '' },
     ],
   },
   {
@@ -157,8 +157,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/rlyr1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/rlyr2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/rlyr1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/rlyr2.gif', caption: '' },
     ],
   },
   {
@@ -178,7 +178,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Iron-Pillar-of-Chandragupta-Delhi.jpg',
+    img: '/images/uploads/2019/12/Iron-Pillar-of-Chandragupta-Delhi.jpg',
     caption: 'Iron Pillar of Chandragupta, Delhi',
     text: `It is very apt to say, like father like son. Samudragupta's son, Chandragupta II tried to be better than his father, and most historians agree, he was certainly successful. Vikramaditya is THE LEGENDARY emperor of India. More stories/legends are associated with him than any other ruler of India. It was during his (and his son Kumargupta) reign, India was at the pinnacle of prosperity and opulence. Although named after his grandfather Chandragupta, he took a title of Vikramaditya, which became a synonym for sovereign of tremendous power and wealth. This title was later taken up by scores of other sovereign rulers of India.`,
   },
@@ -192,7 +192,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Vic1.jpg',
+    img: '/images/uploads/2019/12/Vic1.jpg',
     caption: null,
     text: null,
   },
@@ -219,7 +219,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/vkrd.gif',
+    img: '/images/uploads/2019/12/vkrd.gif',
     caption: null,
     text: `Vikramaditya's reign was perhaps the most prosperous and progressive reign in the Indian history. The contemporary Chinese traveler and Buddhist monk Fa-hein was struck with the prosperity of subject during Gupta rule. He has admired the royal palaces and houses for dispensing charity medicine. He speaks highly of system of Government.`,
   },
@@ -245,7 +245,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/vic2.jpg',
+    img: '/images/uploads/2019/12/vic2.jpg',
     caption: null,
     text: null,
   },
@@ -272,7 +272,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/vic3.jpg',
+    img: '/images/uploads/2019/12/vic3.jpg',
     caption: null,
     text: null,
   },
@@ -302,8 +302,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/TSkum1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/TSkum2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/TSkum1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/TSkum2.gif', caption: '' },
     ],
   },
   {
@@ -331,7 +331,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/kumar1.jpg',
+    img: '/images/uploads/2019/12/kumar1.jpg',
     caption: null,
     text: null,
   },
@@ -358,8 +358,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/kg1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/kg2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/kg1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/kg2.gif', caption: '' },
     ],
   },
   {
@@ -384,7 +384,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/krsl.gif',
+    img: '/images/uploads/2019/12/krsl.gif',
     caption: null,
     text: null,
   },
@@ -405,7 +405,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2020/08/krishna-819x1024.jpg',
+    img: '/images/uploads/2020/08/krishna-819x1024.jpg',
     caption: 'Krishna slaying horse demon Keshi, 5th Century, Gupta period; Metropolitan museum of arts, NY',
     text: `Skandagupta took over the Gupta empire, who too was named after Lord Kartikeya, whose another popular name is Skanda (a clever ploy by Kumargupta, naming son after himself?). Skandagupta and soon had to face with the formidable enemy, the Huns (Hepthalites). Unlike later Roman rulers, who succumbed to these Hunnic invasions, he successfully repelled their early invasions and proved to be able king and administrator in time of crisis. In process, he ensured the prosperity of Gupta empire, a single most achievement of this last great Gupta emperor.`,
   },
@@ -419,7 +419,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2020/03/skanda.jpg',
+    img: '/images/uploads/2020/03/skanda.jpg',
     caption: null,
     text: null,
   },
@@ -444,7 +444,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/skand1.gif',
+    img: '/images/uploads/2019/12/skand1.gif',
     caption: null,
     text: null,
   },
@@ -464,8 +464,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/1200px-Varahavtar_Panel-1024x685.jpg', caption: 'Varaha Avatar of Lord Vishnu rescuing earth, 5th century Gupta Period, Udayagiri Caves' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/08/Mithuna-terra-cotta-sculpture-ce-Gupta-India-Honolulu.jpg', caption: 'Mithuna, Terracota sculpture, 5th Century, Gupta period, Honolulu Academy of Arts' },
+      { img: '/images/uploads/2019/12/1200px-Varahavtar_Panel-1024x685.jpg', caption: 'Varaha Avatar of Lord Vishnu rescuing earth, 5th century Gupta Period, Udayagiri Caves' },
+      { img: '/images/uploads/2020/08/Mithuna-terra-cotta-sculpture-ce-Gupta-India-Honolulu.jpg', caption: 'Mithuna, Terracota sculpture, 5th Century, Gupta period, Honolulu Academy of Arts' },
     ],
   },
 
@@ -485,7 +485,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Buddha-Late-5th-Century-819x1024.jpg',
+    img: '/images/uploads/2019/12/Buddha-Late-5th-Century-819x1024.jpg',
     caption: 'Buddha, Late 5th Century, Mathura. Metropolitan museum of Arts',
     text: null,
   },

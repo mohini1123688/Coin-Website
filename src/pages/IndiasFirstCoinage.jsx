@@ -6,7 +6,7 @@ const content = [
   {
     type: 'figure',
     side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Lion-Capital-of-Ashoka.jpg',
+    img: '/images/uploads/2019/12/Lion-Capital-of-Ashoka.jpg',
     caption: 'The Lion Capital of Ashoka, Sarnath',
     text: `It is very difficult to know today where the concenpt of coinage first evolved, but based on available evidences, it appears that the concept of money as coins, which by definition here would be a piece of metal of defined weight stamped with symbol of authority for financial transaction, was conceived by three different civilizations independently and almost simultaneously. Coins were introduced as a means to trade things of daily usage in Greece (Archaic period), India and China in about 6th century BC. Most historians agree that the first coins of world were issued by Greeks living in Lydia and Ionia (located on the western coast of modern Turkey). These first coins were globules of Electrum, a naturally occurring alloy of gold and silver. These were crude coins of definite weight stamped with incuse punches issued by the local authorities in ~650 BC.`,
   },
@@ -33,19 +33,19 @@ const content = [
     type: 'gallery',
     images: [
       {
-        img: 'https://nupam.net/wp-content/uploads/2019/12/anc1.gif',
+        img: '/images/uploads/2019/12/anc1.gif',
         caption: 'Taxila Janapada, 600-303 BC, Silver, Satamana Bent bar, Two septa-radiate marks at ends, Uniface, Weight: 11.3 gm (100 ratti), Ref: MAC#4071',
       },
       {
-        img: 'https://nupam.net/wp-content/uploads/2019/12/Narhan.jpg',
+        img: '/images/uploads/2019/12/Narhan.jpg',
         caption: 'Shakya Janapada, 600-500 BC, Narhan type, Double Karshapana, Silver, Seven punch marks, Weight: 7.14 gm, Rare, Reference: Numismatic Digest #22',
       },
       {
-        img: 'https://nupam.net/wp-content/uploads/2019/12/pul1.gif',
+        img: '/images/uploads/2019/12/pul1.gif',
         caption: 'Kuntala or Ashmaka Janapada, 600-350 BC, Silver, Double Karshapana, Pulley Type, Uniface, Weight: 6.7 gm, Ref:MAC#4081',
       },
       {
-        img: 'https://nupam.net/wp-content/uploads/2019/12/eig.gif',
+        img: '/images/uploads/2019/12/eig.gif',
         caption: 'Taxila Janapada, 5th Century BC, silver, 1/8th Karshapana, Septa-radiate single punch Mark, Uniface, Weight: 1.4 gm (4 ratti), MAC#4079',
       },
     ],
@@ -65,7 +65,7 @@ const content = [
   {
     type: 'figure',
     side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Yakshini-Statue.jpg',
+    img: '/images/uploads/2019/12/Yakshini-Statue.jpg',
     caption: 'Yakshini, 1st Century BC, Mauryan Period, excavated on banks of river Ganga at Didarganj, Bihar,. Considered to be one of the greatest examples of Mauryan art. A life-size, tall, well-proportioned, highly polished sculpture reflects the artistic sensibility of the Mauryan period. This Chauri Bearer is carved out of a single piece of stone, Chunar Sandstone.',
     text: `Each of the kingdom have issued distinct type of silver coins to facilitate the trade. Shown above are some of the earliest coins of Indian subcontinent. The Shakya Janapada coin was found near Narhan village in Uttar Pradesh state, located near Gomati river, a tributary of Ganga. This rectangular coin, made of almost pure silver, has seven distinct punch marks including central 'pentagon enclosing a sphere' punch mark. We have performed surface electron microscopy on this coin, which indicates that the central mark was punched last. None of those marks show much resemblance to punch marks routinely seen on coins of other Janapadas. Three other punch-marked coins of India minted by Taxila (Takshashila), Koshala and Ashmaka Janapadas are also shown.`,
   },
@@ -83,15 +83,15 @@ const content = [
     type: 'gallery',
     images: [
       {
-        img: 'https://nupam.net/wp-content/uploads/2019/12/nkosh1.gif',
+        img: '/images/uploads/2019/12/nkosh1.gif',
         caption: 'Koshala Janapada, 600-470 BC, Silver, One and Half Karshapana? Weight: 4.68 gm ( 48 ratti), Reference: Series III, Group A of Hardaker, Rare',
       },
       {
-        img: 'https://nupam.net/wp-content/uploads/2019/12/thumbnail_IMG_5726-150x150.jpg',
+        img: '/images/uploads/2019/12/thumbnail_IMG_5726-150x150.jpg',
         caption: 'Kuru Janapada, 500-350 BC, Silver, half Karshapana, Uniface, Weight: 1.6 gm',
       },
       {
-        img: 'https://nupam.net/wp-content/uploads/2019/12/ashm1.gif',
+        img: '/images/uploads/2019/12/ashm1.gif',
         caption: 'Kalinga Janapada 500-350 BC, Silver, half Karshapana, Uniface, Weight: 1.6 gm, Very Rare',
       },
     ],
@@ -102,7 +102,7 @@ const content = [
   {
     type: 'figure',
     side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/m1-150x150.jpg',
+    img: '/images/uploads/2019/12/m1-150x150.jpg',
     caption: 'Bimbisara and Ajatashatru, Magadh, 500-430 BC, AR Karshapana, 3.6 gms, Reference: GH#189, Series I, Rare',
     text: `Most of these Janapadas were subsequently absorbed into Magadha Kingdom (ruled by Saisunaga dynasty) between 600-321 BC. Pradyotas of Avanti were defeated by Saisunaga in 400 BC. The most remarkable king of Magadha was Bimbisara (also called Shrenika) who ascended on throne in 545 BC. He annexed kingdom of Anga (east Bihar) and married princesses of Koshala and Vaishali thereby expanding his kingdom to the borders of Nepal. He was a very efficient administrator and built the city of RajGriha (Rajgir in Bihar state). Both, Goutam Buddha and Mahavir Jain preached their doctrines during his reign. His son Ajatshatru (494-462 BC) defeated many of his adversaries including humbling his uncle Presanjit of Koshala. He founded the city Pataliputra (modern Patna), which was metropolis of ancient India for next four centuries.`,
   },
@@ -120,7 +120,7 @@ const content = [
   {
     type: 'figure',
     side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Ashokas-Pillar-Vaishali.jpg',
+    img: '/images/uploads/2019/12/Ashokas-Pillar-Vaishali.jpg',
     caption: "Ashoka's Pillar, Vaishali",
     text: `Most likely, emperors of Maurya dynasty ruled the largest empire that ever existed in the Indian subcontinent. Soon after the death of Alexander, his empire was divided among his generals. One of his general Seleucus assumed the title of King in 312 BC. He invaded India but was repelled by Chandragupta Maurya. It is likely that Chandragupta and Seleucus developed mutual respect for each other leading to Seleucus surrendering a part of Gandhara (modern Afghanistan and Pakistan) and giving his daughter (or sister?) to Chandragupta in marriage. Seleucus sent an ambassador named Magasthenes to Chandragupta's court, who has written detailed account of might and pomp of Mauryan empire. Chandragupta (according to Jain scripture became the Jain monk and spent his last days at Shravan Belagola in southern India) was followed by his son Bindusara who increased his empire by annexing Deccan (modern Maharashtra and Andhra/Telangana), the south India.`,
   },
@@ -135,8 +135,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/3men.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/3men2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/3men.gif', caption: '' },
+      { img: '/images/uploads/2019/12/3men2.gif', caption: '' },
     ],
   },
   {
@@ -155,8 +155,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/a1-215x300.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/a2-218x300.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/a1-215x300.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/a2-218x300.jpg', caption: '' },
     ],
   },
 
@@ -171,8 +171,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/m2-150x150.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/m3-150x150.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/m2-150x150.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/m3-150x150.jpg', caption: '' },
     ],
   },
   {
@@ -192,7 +192,7 @@ const content = [
   {
     type: 'figure',
     side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Pillar-writing-721x1024.jpg',
+    img: '/images/uploads/2019/12/Pillar-writing-721x1024.jpg',
     caption: 'Pillar Edict of Ashoka, Lauria Nandangarh',
     text: `During Ashoka's reign, the Mauryan empire reached zenith covering an area from modern Afganistan in west to Assam in east and in north from Himalayas to modern Andhra Pradesh in southern India. These imperial punch marked coins have been discovered in all the regions which cover modern India, Pakistan and Afghanistan, truly representing the glory of the mighty Mauryan empire. Although, Kalinga war proved to be turning point and produced far reaching consequence in the history of India and whole eastern world. Ashoka came under influence of Buddhist philosophy and later sent his son (or brother?) Mahendra to Sri Lanka, where king Devanampiya Tissa and eventually the entire island embraced Buddhism. Later, Buddhism spread to large part of Asia (China, Bhutan, Mongolia, Japan, Korea and Taiwan) and south-east Asia (modern Myanmar/Burma, Combodia, Laos, Thailand, Vietnam and Singapore). Even today, majority of population in these countries follow Buddhism.`,
   },
@@ -210,7 +210,7 @@ const content = [
   {
     type: 'figure',
     side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Stupa-of-Sanchi.jpeg',
+    img: '/images/uploads/2019/12/Stupa-of-Sanchi.jpeg',
     caption: 'Stupa of Sanchi',
     text: null,
   },
@@ -220,7 +220,7 @@ const content = [
   {
     type: 'figure',
     side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/kun.gif',
+    img: '/images/uploads/2019/12/kun.gif',
     caption: null,
     text: `Ashoka was the last emperor of Mauryan empire which started it's decline soon after his death. Many kingdom arose out of ruins of this great empire. Northern India was divided into many republics (?) which were controlled by various ganas (tribes) like Achuyta, Ahicchatra, Arjunayana, Ayodhya, Eran, Kaushambi, Kuninda etc. The coins issued by these republics/Kingdoms are very interesting both historically and numismatically.`,
   },

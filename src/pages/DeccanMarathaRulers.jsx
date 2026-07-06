@@ -15,7 +15,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Dancing-Shiva-Badami-Cave-Temple-732x1024.jpg',
+    img: '/images/uploads/2019/12/Dancing-Shiva-Badami-Cave-Temple-732x1024.jpg',
     caption: 'Dancing Shiva, Badami Cave Temple',
     text: `The first ancient dynasty of Deccan was Satvahanas, and their rule lasted for almost four centuries. Many kingdoms arose in the ruins of Satavahanas. One of the major kingdom was the Chalukyas, who initially replaced a major power of Andhra region, Chutus of Banavasi (Vaijayanti) and rose to prominence in 6th century AD. Like Satvahanas, Chalukyas too occupied a vast territory covering entire Deccan region, modern Maharashtra, Karnataka and Andhra/Telangana states.`,
   },
@@ -30,7 +30,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2020/04/East-Chalukyas.jpg',
+    img: '/images/uploads/2020/04/East-Chalukyas.jpg',
     caption: null,
     text: null,
   },
@@ -61,8 +61,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/chal2.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/chal1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/chal2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/chal1.gif', caption: '' },
     ],
   },
   {
@@ -80,7 +80,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2021/12/ok.jpg',
+    img: '/images/uploads/2021/12/ok.jpg',
     caption: null,
     text: `Shown above is the die struck coin, the obverse of which shows a large caparisoned boar or Varaha. Above the Varaha is a pellet and crescent, representing sun and moon. Near the neck of Varaha is a lampstand. Although all the three royal families, Eastern Chalukyas, Chalukyas of Vengi and Western Chalukyas have been known to mint coin depicting Boar, the Eastern Chalukyas were the only who showed Varaha along with a lampstand, which was their royal emblem. This royal emblem with Chakra and conch shell, is carved in the Ladkhan temple at Aihole (shown below). This temple, dedicated to Lord Vishnu, is the oldest free-standing temple of south India, build by Eastern Chalukyan rulers in 5th century. This Chalukyan royal emblem is also reproduced, complete with sun and moon above the Varaha and the lampstand, at Government Museum, Chennai (shown below).`,
   },
@@ -95,14 +95,14 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2020/04/eastern-chalukyan-emblem-768x729.jpg',
+    img: '/images/uploads/2020/04/eastern-chalukyan-emblem-768x729.jpg',
     caption: 'Chalukyas of Vatapi Emblem at Museum at Madras (Chennai)',
     text: null,
   },
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/elementor/thumbs/Ladkhan_temple-onex9rphbnux63kg9sj9yiqa9uwpq2kuvu9e78whfg.jpg',
+    img: '/images/uploads/elementor/thumbs/Ladkhan_temple-onex9rphbnux63kg9sj9yiqa9uwpq2kuvu9e78whfg.jpg',
     caption: 'Chalukyas of Vatapi Emblem at Ladkhan Temple, Aihole',
     text: null,
   },
@@ -111,7 +111,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/buj.gif',
+    img: '/images/uploads/2019/12/buj.gif',
     caption: null,
     text: null,
   },
@@ -145,8 +145,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2020/04/Jaga-obv-2.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/04/Jaga-rev-2.jpg', caption: '' },
+      { img: '/images/uploads/2020/04/Jaga-obv-2.jpg', caption: '' },
+      { img: '/images/uploads/2020/04/Jaga-rev-2.jpg', caption: '' },
     ],
   },
   {
@@ -164,7 +164,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2022/02/some-I.jpg',
+    img: '/images/uploads/2022/02/some-I.jpg',
     caption: null,
     text: null,
   },
@@ -192,7 +192,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2020/04/bijjala.jpg',
+    img: '/images/uploads/2020/04/bijjala.jpg',
     caption: null,
     text: null,
   },
@@ -221,7 +221,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/yad2.gif',
+    img: '/images/uploads/2019/12/yad2.gif',
     caption: null,
     text: null,
   },
@@ -250,8 +250,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2020/04/Picture2.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/04/singan.jpg', caption: '' },
+      { img: '/images/uploads/2020/04/Picture2.jpg', caption: '' },
+      { img: '/images/uploads/2020/04/singan.jpg', caption: '' },
     ],
   },
   {
@@ -270,7 +270,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Shivaji_British-Museum-739x1024.jpg',
+    img: '/images/uploads/2019/12/Shivaji_British-Museum-739x1024.jpg',
     caption: 'Chatrapati Shivaji, British Museum',
     text: `The rise of the Maratha power was an important factor in Indian politics during seventeen century. After fall of Kingdom of Yadavas to Allauddin Khilji, they lost their independence but acquired political and military experience for next few centuries by serving under various sultanates of Deccan. In seventeen century Shahaji Bhonsale, a gallant and capable soldier rose to distinction and acquired 3 fiefdoms, one each in western Maharashtra (Pune), Karnataka (Bangalore or Bangluru) and in Tamilnadu (Tanjavur). He even played as a Kingmaker in Ahmadnagar Sultanate, the Nizam Shahi rule of Deccan. He married Jijabai, hailed from the royal family of Yadava (Jadhav) kings of Devagiri. Her son, Shivaji was the hero of Maratha national unity whose glorious achievements have influenced post-Mughal Indian history considerably.`,
   },
@@ -285,7 +285,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/shivaji-1.jpg',
+    img: '/images/uploads/2019/12/shivaji-1.jpg',
     caption: null,
     text: null,
   },
@@ -304,14 +304,14 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Shivaji-2.jpg',
+    img: '/images/uploads/2019/12/Shivaji-2.jpg',
     caption: null,
     text: `Shivaji at very young age realized the importance of guerrilla warfare and taking advantage of growing weakness of Deccan sultanates, seized many forts in western Maharashtra and later annexed small Maratha principality of Jawali. Later in daredevil act, he killed Afzal Khan, the most powerful noble and general of Bijapur court. He came in direct conflict with Mughal emperor Aurangzeb, who never trusted Shivaji. He sent his able general and governor of Deccan, Shaista Khan. After two years of sporadic fighting, one night Shivaji secretly entered into Shahista Khan's palace, slew his son, his 40 bodyguards and personally attacked Khan. Khan barely escaped with his life by jumping out of the window, but during this escape lost his thumb and two fingers, chopped by Shivaji's sword. This daring attempt on the life of Mughal viceroy, who was also Emperor's uncle, immensely increased the prestige of Shivaji in Mughal court. Soon he performed another adventurous feat which was no less than earlier one. He sacked and plundered the richest Mughal port, Surat in 1664. More than 10 million rupees were taken while the Mughal governor of Surat took to his heels instead of resisting Shivaji.`,
   },
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Shivaji-4.jpg',
+    img: '/images/uploads/2019/12/Shivaji-4.jpg',
     caption: null,
     text: null,
   },
@@ -330,7 +330,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Shivaji-3.jpg',
+    img: '/images/uploads/2019/12/Shivaji-3.jpg',
     caption: null,
     text: `At this juncture, Aurangzeb sent Jaysingh, Raja of Amber (Jaipur), a brave but tactful general who had long military experience in many campaigns of empire. His foresight and diplomatic skills were far superior to other Mughal generals. After few brave attempts to save his territory, Shivaji concluded a peace treaty at Purandhar fort and on insistence of Jay Singh, agreed to pay visit to Aurangzeb at Imperial court of Agra. Shivaji was coldly received by Aurangzeb, which wounded Shivaji's honor. He accused emperor of breach of faith whereupon he was imprisoned. He escaped from prison along with his son Prince Shambhuji and most of his colleagues (a fantastic episode!). Later shrewd Aurangzeb granted him title of Raja (king) and gave Vidarbha region of Maharashtra (Also called Berar).`,
   },
@@ -356,7 +356,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/malh.gif',
+    img: '/images/uploads/2019/12/malh.gif',
     caption: null,
     text: null,
   },
@@ -374,7 +374,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/pesh.jpg',
+    img: '/images/uploads/2019/12/pesh.jpg',
     caption: null,
     text: null,
   },
@@ -394,7 +394,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2022/02/Madhoji.jpg',
+    img: '/images/uploads/2022/02/Madhoji.jpg',
     caption: null,
     text: null,
   },
@@ -415,8 +415,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/ShindeBaijaObv.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/ShindeBaijaRev-1.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/ShindeBaijaObv.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/ShindeBaijaRev-1.jpg', caption: '' },
     ],
   },
   {
@@ -437,8 +437,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/JankojiObv.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/JankojiRev.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/JankojiObv.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/JankojiRev.jpg', caption: '' },
     ],
   },
   {
@@ -466,7 +466,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2022/02/jayaji.jpg',
+    img: '/images/uploads/2022/02/jayaji.jpg',
     caption: null,
     text: null,
   },
@@ -496,7 +496,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/peshv.gif',
+    img: '/images/uploads/2019/12/peshv.gif',
     caption: null,
     text: null,
   },
@@ -515,7 +515,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/hol2.gif',
+    img: '/images/uploads/2019/12/hol2.gif',
     caption: null,
     text: null,
   },
@@ -543,7 +543,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/indo.gif',
+    img: '/images/uploads/2019/12/indo.gif',
     caption: null,
     text: null,
   },
@@ -571,7 +571,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Bh.gif',
+    img: '/images/uploads/2019/12/Bh.gif',
     caption: null,
     text: null,
   },
@@ -599,7 +599,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/baroda.jpg',
+    img: '/images/uploads/2019/12/baroda.jpg',
     caption: null,
     text: null,
   },

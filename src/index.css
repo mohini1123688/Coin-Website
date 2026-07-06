@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* ---- Design tokens: gold on white -------------------------------------- */
+:root {
+  /* Surfaces */
+  --white:        #ffffff;
+  --paper:        #fdfbf6;   /* barely-warm off-white for footer / inset strips */
+  --paper-2:      #faf7ef;
+
+  /* Ink / text */
+  --ink:          #2b2b2b;
+  --ink-soft:     #4a4740;
+  --muted:        #8a877c;   /* tiny caption text */
+  --muted-2:      #a6a396;
+
+  /* Gold */
+  --gold:         #b8924a;
+  --gold-bright:  #d9b866;
+  --gold-deep:    #8a6d2f;
+  --gold-line:    #e7dabb;   /* hairline rules & borders */
+  --gold-faint:   #f2e9d4;
+
+  --shadow:       0 10px 30px -18px rgba(120, 96, 40, 0.35);
+
+  --maxw:         1080px;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body:    'EB Garamond', Georgia, serif;
+}
+
+/* ---- Reset ------------------------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--white);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.15;
+  color: var(--ink);
+  margin: 0 0 0.5em;
+}
+
+a { color: var(--gold-deep); text-decoration: none; }
+a:hover { color: var(--gold); }
+
+img { max-width: 100%; display: block; }
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* The struck-coin divider between sections */
+.coin-rule {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 3rem auto;
+  max-width: 640px;
+  color: var(--gold);
+}
+.coin-rule::before,
+.coin-rule::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-line), transparent);
+}
+.coin-rule span {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, var(--gold-bright), var(--gold));
+  box-shadow: 0 0 0 3px var(--gold-faint);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

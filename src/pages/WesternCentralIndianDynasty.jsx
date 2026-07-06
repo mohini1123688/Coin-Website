@@ -14,7 +14,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/stup.gif',
+    img: '/images/uploads/2019/12/stup.gif',
     caption: null,
     text: `The Amarawati Stupa represent a new school of art, which is named after it. Unfortunately this stupa is in ruins today and the railings have been taken away for display in the British Museum, London and Government Museum, Madras. Shown on right is a casing slab from the Amarawati stupa on which the miniature of the stupa is carved. This marvelous sculpture might allow us to imagine the grandeur of this great stupa.`,
   },
@@ -29,7 +29,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/sat1-150x150.jpg',
+    img: '/images/uploads/2019/12/sat1-150x150.jpg',
     caption: null,
     text: null,
   },
@@ -59,8 +59,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/sat2.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/sat3.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/sat2.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/sat3.jpg', caption: '' },
     ],
   },
   {
@@ -79,8 +79,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/sat4.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/sat5.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/sat4.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/sat5.jpg', caption: '' },
     ],
   },
   {
@@ -106,7 +106,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/sat.gif',
+    img: '/images/uploads/2019/12/sat.gif',
     caption: null,
     text: null,
   },
@@ -141,7 +141,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/3840398.jpg',
+    img: '/images/uploads/2019/12/3840398.jpg',
     caption: null,
     text: null,
   },
@@ -169,7 +169,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/rd.gif',
+    img: '/images/uploads/2019/12/rd.gif',
     caption: null,
     text: null,
   },
@@ -187,7 +187,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/vs.gif',
+    img: '/images/uploads/2019/12/vs.gif',
     caption: null,
     text: null,
   },
@@ -214,7 +214,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/valbh.gif',
+    img: '/images/uploads/2019/12/valbh.gif',
     caption: null,
     text: `In Saurashtra (modern Gujrat), Bhattaraka established a new independent kingdom during decline of Gupta empire. This new kingdom of Valabhi was ruled by Maitraka family for next 350 years. All the coins issue by Valabhi rulers were in the name of Bhattaraka, who took a title of Senapati, the army general. The coins of this dynasty are minted in Kshatrapa style depicting bust of ruler (highly stylize in the later issues) on obverse, while reverse depict the trident (Shastra or weapon of Lord Shiva) with or without side arm. The legends are present on reverse written in Brahmi script, which reads Rajno Mahakshatrapa Paramaditya Bhakta Mahasamanta Sri Sarva Bhattarakasa.`,
   },
@@ -246,7 +246,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Silver-Drachm-Harshavardhana-5.jpg',
+    img: '/images/uploads/2019/12/Silver-Drachm-Harshavardhana-5.jpg',
     caption: null,
     text: null,
   },
@@ -285,7 +285,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Picture2.jpg',
+    img: '/images/uploads/2019/12/Picture2.jpg',
     caption: 'Sculpture of AadiVaraha, Udaigiri Caves',
     text: `The coins of Bhoja were immensely popular in medieval period and were extensively copied by his successors. All the kings of Pratihara dynasty minted exact same coin which were introduced by Bhoja I. Although the coins of later rulers of Pratihara dynasty were more stylized and heavily debased.`,
   },
@@ -300,8 +300,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/bhoj1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/bhoj2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/bhoj1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/bhoj2.gif', caption: '' },
     ],
   },
   {
@@ -320,7 +320,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Picture3.jpg',
+    img: '/images/uploads/2019/12/Picture3.jpg',
     caption: null,
     text: null,
   },
@@ -338,14 +338,14 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Lord-Vishnu-10th-Century-Punjab.-Metropolitan-museum-of-Art-811x1024.jpg',
+    img: '/images/uploads/2019/12/Lord-Vishnu-10th-Century-Punjab.-Metropolitan-museum-of-Art-811x1024.jpg',
     caption: 'Lord Vishnu, 10th Century, Punjab. Metropolitan museum of Art, New York',
     text: null,
   },
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/sm.gif',
+    img: '/images/uploads/2019/12/sm.gif',
     caption: null,
     text: null,
   },
@@ -364,7 +364,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Picture6.jpg',
+    img: '/images/uploads/2019/12/Picture6.jpg',
     caption: null,
     text: null,
   },
@@ -396,7 +396,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Celestial-dancer-11th-Century-Central-India-housed-in-the-Metropolitan-museum-of-Art-NY-1.jpg',
+    img: '/images/uploads/2019/12/Celestial-dancer-11th-Century-Central-India-housed-in-the-Metropolitan-museum-of-Art-NY-1.jpg',
     caption: 'Celestial dancer, 11th Century, Central India, housed in the Metropolitan museum of Art, NY',
     text: `Disintegration of Pratihara empire signaled emergence of multiple new dynasties. The feudatories of old empires took up a difficult task of defending India against new foreign invaders, Turks. In tradition of great Vikramaditya (Chandragupta II) who killed Shaka ruler, a foreigner in his own city, these new kings too took titles 'Vikramaditya or new Shahasankas. One notable king was Gangeyadeva of Kalachuris who did considerable justice to his title of Vikramaditya. He brought large part of Gangetic plain under his command and cemented friendships with strong neighbors by matrimonial alliance, thus bringing the glorious traditions of Harsha and Bhoja days. He had his capital at Tewar or Dahala, which is located near modern city of Jabalpur in Madhya Pradesh. On his death, his son Lakshmi Karna became the next ruler who too exhibited fine qualities. But after him the power was passed on to next major dynasty of northern India, Gahadvala.`,
   },
@@ -410,7 +410,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/image00928.jpg',
+    img: '/images/uploads/2019/12/image00928.jpg',
     caption: null,
     text: null,
   },
@@ -432,8 +432,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/nar1-1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/nar2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/nar1-1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/nar2.gif', caption: '' },
     ],
   },
   {
@@ -471,7 +471,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Picture5.jpg',
+    img: '/images/uploads/2019/12/Picture5.jpg',
     caption: null,
     text: null,
   },
@@ -493,8 +493,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/vig1-1.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/vig2-1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vig1-1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vig2-1.jpg', caption: '' },
     ],
   },
   {
@@ -513,8 +513,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/rama1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/rama2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/rama1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/rama2.gif', caption: '' },
     ],
   },
 
@@ -529,7 +529,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/bisaldeo-temple.jpg',
+    img: '/images/uploads/2019/12/bisaldeo-temple.jpg',
     caption: null,
     text: `Vigraharja's illustrious grandnephew, Prithviraja III (also known as Rai Pithora in literature) came into conflict with grandson of Govindchandra, Jayachandra (Jaichand). The rivalry between these two most powerful dynasties of northern India weakened both the kingdoms. And this opportunity was cleverly exploited by Muhammad Ghori (bin Sam). Ghori was raiding northern India fairly regularly, primary purpose of these annual raids was to maximize the loot. The temples were obvious targets, many were fabulously wealthy and were rarely guarded. His raids of temples and subsequent desecration of idols (Somnath temple raid in particular) is well documented in contemporary writing. It was inevitable that Mahmud and Prithviraha would come face-to-face and in first such battle, Prithviraja defeated Ghori. There was possibility that Ghori could even have been caught, but unfortunately chivalrous Raja let that opportunity go. Ghori was back next year; overconfident Raja did not take this invasion seriously. Ghori was much better prepared and defeated Prithviraja, what is known as the 'Second battle of Tarain' (near Delhi). Prithviraja was captured alive, but soon Ghori blinded him and had him executed. Soon Ghori invaded and captured the city of Banaras, capital of Gahadavalas.`,
   },
@@ -543,7 +543,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Prithvi.jpg',
+    img: '/images/uploads/2019/12/Prithvi.jpg',
     caption: null,
     text: null,
   },
@@ -571,7 +571,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Adhai_Din-ka.jpg',
+    img: '/images/uploads/2019/12/Adhai_Din-ka.jpg',
     caption: null,
     text: null,
   },

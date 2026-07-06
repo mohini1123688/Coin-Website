@@ -13,7 +13,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/mohur.gif',
+    img: '/images/uploads/2019/12/mohur.gif',
     caption: null,
     text: null,
   },
@@ -41,8 +41,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/twomo.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/twom.gif', caption: '' },
+      { img: '/images/uploads/2019/12/twomo.gif', caption: '' },
+      { img: '/images/uploads/2019/12/twom.gif', caption: '' },
     ],
   },
   {
@@ -67,8 +67,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/twomo.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/onem.gif', caption: '' },
+      { img: '/images/uploads/2019/12/twomo.gif', caption: '' },
+      { img: '/images/uploads/2019/12/onem.gif', caption: '' },
     ],
   },
   {
@@ -92,7 +92,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/WlRp.gif',
+    img: '/images/uploads/2019/12/WlRp.gif',
     caption: null,
     text: null,
   },
@@ -109,7 +109,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/YVicRp.gif',
+    img: '/images/uploads/2019/12/YVicRp.gif',
     caption: null,
     text: null,
   },
@@ -135,7 +135,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/MVicRp.gif',
+    img: '/images/uploads/2019/12/MVicRp.gif',
     caption: null,
     text: null,
   },
@@ -152,7 +152,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/EdRp.gif',
+    img: '/images/uploads/2019/12/EdRp.gif',
     caption: null,
     text: null,
   },
@@ -169,7 +169,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Gr5Rp.gif',
+    img: '/images/uploads/2019/12/Gr5Rp.gif',
     caption: null,
     text: null,
   },
@@ -187,8 +187,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/91En7VonuAL._SL1500_-1024x1024.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/3904859962226340911.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/91En7VonuAL._SL1500_-1024x1024.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/3904859962226340911.jpg', caption: '' },
     ],
   },
   {
@@ -206,7 +206,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Lion-Capital-of-Ashoka.jpg',
+    img: '/images/uploads/2019/12/Lion-Capital-of-Ashoka.jpg',
     caption: 'Lion Capital of Ashoka',
     text: `India declared independence on 15th August 1947. India was partitioned into three parts. India, Pakistan and Bangladesh (former East pakistan). India was declared as Republic in 1950. On 15th August 1950, India introduced it's own coinage, all of which have Ashokas (the greatest Mauryan Emperor) Lion Capital motif (described in First coinage of India). This Lion-Capital erected by Ashoka (four-lion pillar which is shown above) gleams in polished white sandstone realistically represents the artistic achievements of Indian artists and patronage of their masters, in ancient period. This Lion-Capital, erected at Sarnath (in modern Madhya Pradesh state) has become the national emblem of modern republic of India. All the coins and currency notes of modern India have this four-lion symbol on it.`,
   },
@@ -222,9 +222,9 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/rup10.gif', caption: 'Republic of India 10 Rupees Silver Minted at Bombay in 1970, Proof Weight: 24.6 gms Rev: Equality Development Peace Rare, only 2900 coins minted' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/rup20.gif', caption: 'Republic of India 20 Rupees Silver Minted at Bombay in 1973, Proof Weight: 30 gms Rev: Grow More Food Mintage: 12,000 coins' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/rup50.gif', caption: 'Republic of India 50 Rupees Silver Minted at Bombay in 1974, Proof Weight: 34.7 gms Rev: Planned Families, Food for All Mintage: 13,000 coins' },
+      { img: '/images/uploads/2019/12/rup10.gif', caption: 'Republic of India 10 Rupees Silver Minted at Bombay in 1970, Proof Weight: 24.6 gms Rev: Equality Development Peace Rare, only 2900 coins minted' },
+      { img: '/images/uploads/2019/12/rup20.gif', caption: 'Republic of India 20 Rupees Silver Minted at Bombay in 1973, Proof Weight: 30 gms Rev: Grow More Food Mintage: 12,000 coins' },
+      { img: '/images/uploads/2019/12/rup50.gif', caption: 'Republic of India 50 Rupees Silver Minted at Bombay in 1974, Proof Weight: 34.7 gms Rev: Planned Families, Food for All Mintage: 13,000 coins' },
     ],
   },
 ];

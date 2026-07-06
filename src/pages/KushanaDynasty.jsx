@@ -5,7 +5,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/Three-headed-Shiva.jpg',
+    img: '/images/uploads/2019/12/Three-headed-Shiva.jpg',
     caption: 'Three headed Lord Shiva, Votive panel of Kushan Period. Metropolitan museum of Art, New York',
     text: `The name Kushan is derived from the term Guishang, used in Chinese historical writings to describe one branch of the nomadic people, called Yuezhi or Yuechi. These nomads, who were of Indo-European stock, roamed the northwestern China but during 176-160 BC, they were driven west by another group, the Xiongnu. The political disturbance in central Asia (and possibly the availability of better and prosperous land and other resources) drove these nomads out into Bactria (modern northwest Afghanistan, Uzbekistan and Tajikistan). In 165 BC, few tribes settled in Oxus river (Amu Darya) valley and established independent existence.`,
   },
@@ -31,8 +31,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Picture9.png', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Picture10.png', caption: '' },
+      { img: '/images/uploads/2019/12/Picture9.png', caption: '' },
+      { img: '/images/uploads/2019/12/Picture10.png', caption: '' },
     ],
   },
   {
@@ -48,7 +48,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/vima-sc-225x300.jpg',
+    img: '/images/uploads/2019/12/vima-sc-225x300.jpg',
     caption: 'Vima Kadphises, Red Sandstone statue, Mathura museum',
     text: `The statue unearthed near Mathura, now housed in Mathura museum, shows Kushan inscription indicative of Vima's name (Maharaja rajatiraja devaputra Kushanaputra (Shahi Vamataksha) masya Vakanapatina Huma (devakulu) karita Arama pushkarini udapana (cha) sa-da (kothako). Here Vima is shown sitting on throne (shown on left), which seem to be replicated on the double dinar, shown above.`,
   },
@@ -64,8 +64,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vima3.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vima4.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vima3.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vima4.jpg', caption: '' },
     ],
   },
   {
@@ -83,8 +83,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vima5.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vima6.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vima5.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vima6.jpg', caption: '' },
     ],
   },
   {
@@ -111,8 +111,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vima7-150x150.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/v-coin-2.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vima7-150x150.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/v-coin-2.jpg', caption: '' },
     ],
   },
   {
@@ -131,14 +131,14 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/vima9.jpg',
+    img: '/images/uploads/2019/12/vima9.jpg',
     caption: null,
     text: `In addition, Vima also issued copper coinage, in three denominations, Tetradrachm (~17 gms) Didrachm (~8.5 gms) and Drachm (~4.2 gms). A fine example of his Tetradrachm is shown below, where Vima is seen sacrificing at an altar. On reverse, Shiva and Nandi are seen. The obverse of this coin had legends written in cursive Greek (Bactrian), while reverse showed legends in Sanskrit, written in ancient Indian script, Kharoshti.`,
   },
 
   {
     type: 'figure', side: 'right',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/vima10-1.jpg',
+    img: '/images/uploads/2019/12/vima10-1.jpg',
     caption: null,
     text: null,
   },
@@ -169,7 +169,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/Kanishka-statue.png',
+    img: '/images/uploads/2019/12/Kanishka-statue.png',
     caption: 'Kanishka Statue, Mathura museum',
     text: `Vima's able son Kanishka followed and took control of this dynasty in 128 AD. Kanishka is the legendary ruler of ancient India and according to most historians, the greatest ruler of Kushan dynasty. He was the first ruler of the ancient world ever to show shoulder flames and nimbus around the royal head on his coins (giving himself the divine status). He and his descendants called themselves 'Devputra', which means son of god, who ruled Aryavarta, the India.`,
   },
@@ -186,8 +186,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Picture11-150x150.png', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Picture12-150x150.png', caption: '' },
+      { img: '/images/uploads/2019/12/Picture11-150x150.png', caption: '' },
+      { img: '/images/uploads/2019/12/Picture12-150x150.png', caption: '' },
     ],
   },
   {
@@ -204,7 +204,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/Kani1.jpg',
+    img: '/images/uploads/2019/12/Kani1.jpg',
     caption: null,
     text: null,
   },
@@ -229,7 +229,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/Kanishkas-187x300.jpg',
+    img: '/images/uploads/2019/12/Kanishkas-187x300.jpg',
     caption: "Kanishka's casket/reliquary",
     text: null,
   },
@@ -237,8 +237,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Kani2.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Kani3.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Kani2.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Kani3.jpg', caption: '' },
     ],
   },
   {
@@ -258,8 +258,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Kani4.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Kani5.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Kani4.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Kani5.jpg', caption: '' },
     ],
   },
   {
@@ -290,7 +290,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/bodhi.png',
+    img: '/images/uploads/2019/12/bodhi.png',
     caption: 'Bodhisattva, Kushan Period',
     text: null,
   },
@@ -298,8 +298,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Huvi4-150x150.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Huvi5-150x150.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Huvi4-150x150.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Huvi5-150x150.jpg', caption: '' },
     ],
   },
   {
@@ -317,8 +317,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Huvi1-150x150.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/HUVI7.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Huvi1-150x150.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/HUVI7.jpg', caption: '' },
     ],
   },
   {
@@ -345,7 +345,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/Huvi3.jpg',
+    img: '/images/uploads/2019/12/Huvi3.jpg',
     caption: null,
     text: null,
   },
@@ -373,8 +373,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Huvi-2.png', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Huvi-3.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Huvi-2.png', caption: '' },
+      { img: '/images/uploads/2019/12/Huvi-3.jpg', caption: '' },
     ],
   },
   {
@@ -400,8 +400,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Picture7.png', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Picture8.png', caption: '' },
+      { img: '/images/uploads/2019/12/Picture7.png', caption: '' },
+      { img: '/images/uploads/2019/12/Picture8.png', caption: '' },
     ],
   },
   {
@@ -436,7 +436,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/Shiva-Kushan-1.jpg',
+    img: '/images/uploads/2019/12/Shiva-Kushan-1.jpg',
     caption: '3-Headed, 4/6-armed Shiva, Kushan Period, 3rd-4th Century, Found at Akhun Dheri; Peshawar Museum',
     text: null,
   },
@@ -444,8 +444,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vasu1.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vasu2.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vasu1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vasu2.jpg', caption: '' },
     ],
   },
   {
@@ -464,8 +464,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vasu3.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vasu4.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vasu3.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vasu4.jpg', caption: '' },
     ],
   },
   {
@@ -484,7 +484,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/vasu5.jpg',
+    img: '/images/uploads/2019/12/vasu5.jpg',
     caption: null,
     text: null,
   },
@@ -503,7 +503,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/vasu6.jpg',
+    img: '/images/uploads/2019/12/vasu6.jpg',
     caption: null,
     text: null,
   },
@@ -531,14 +531,14 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/Three-headed-Shiva-Harvard-University-Art-Museum-199x300.jpg',
+    img: '/images/uploads/2019/12/Three-headed-Shiva-Harvard-University-Art-Museum-199x300.jpg',
     caption: 'Three headed Shiva, Kashmir, India, 8th Century; Harvard University Art Museum',
     text: `Another well known representation of 3-headed Shiva is seen at Elephanta or Gharapuri Caves. This 20 ft high colossus was carved out of a single rock in 6-7th century (shown below, in center). This amazing masterpiece provides all the details of three forms of Shiva, which essentially remained unchanged over 2 millenniums. Three Kushan rulers, Huvishka, Vasudeva I and Kanishka II minted three-headed Shiva coins, all are shown here (above and below).`,
   },
 
   {
     type: 'figure', side: 'right',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/shiva-4.jpg',
+    img: '/images/uploads/2019/12/shiva-4.jpg',
     caption: null,
     text: null,
   },
@@ -546,8 +546,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/shiva-2.jpg', caption: '3 Headed Shiva at Gharapuri Caves, 6th Century' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Harihara-berlin.jpg', caption: 'Harihara, Berlin Museum' },
+      { img: '/images/uploads/2019/12/shiva-2.jpg', caption: '3 Headed Shiva at Gharapuri Caves, 6th Century' },
+      { img: '/images/uploads/2019/12/Harihara-berlin.jpg', caption: 'Harihara, Berlin Museum' },
     ],
   },
 
@@ -578,8 +578,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vishnu-1-200x300.jpg', caption: 'Three headed Vishnu, 4-7 century AD, Afghanistan' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/vishnu-2-222x300.jpg', caption: 'Vaikuntha Vishnu, 8th Century, Kashmir' },
+      { img: '/images/uploads/2019/12/vishnu-1-200x300.jpg', caption: 'Three headed Vishnu, 4-7 century AD, Afghanistan' },
+      { img: '/images/uploads/2019/12/vishnu-2-222x300.jpg', caption: 'Vaikuntha Vishnu, 8th Century, Kashmir' },
     ],
   },
 
@@ -597,8 +597,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Kani-21-1.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Kani-22.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Kani-21-1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Kani-22.jpg', caption: '' },
     ],
   },
   {
@@ -632,7 +632,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'http://nupam.net/wp-content/uploads/2019/12/Vashi.jpg',
+    img: '/images/uploads/2019/12/Vashi.jpg',
     caption: null,
     text: null,
   },
@@ -655,8 +655,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Magra1-150x150.jpg', caption: '' },
-      { img: 'http://nupam.net/wp-content/uploads/2019/12/Magra2-150x150.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Magra1-150x150.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/Magra2-150x150.jpg', caption: '' },
     ],
   },
   {

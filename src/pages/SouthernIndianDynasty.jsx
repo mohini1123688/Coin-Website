@@ -7,7 +7,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/3-Headed-Shiva-805x1024.jpg',
+    img: '/images/uploads/2019/12/3-Headed-Shiva-805x1024.jpg',
     caption: '3-Headed Shiva, Chola Period Metroplitan museum of Art, NY',
     text: `Cholas is an ancient dynasty of southern India having roots in Indian mythology. It was in 850 AD, Vijayalaya Chola, a feudatory of Pallava captured Tanjore (or Tanjavur) and brought Chola dynasty to prominence once again. His son Aditya Chola (871-907 AD) squarly defeated Pandyas and Pallawas, two other major power brokers of South India to become sovereign ruler of south India. Raja Raja Chola (985-1014 AD) was the greatest ruler of this dynasty. He first destroyed Chera (the rulers of Kerala, south India) navy at Trivendrum, then captured Madura and subsequently defeated Sri Lankan king Mahendra V, thus occupying northern Sri Lanka. He later conquered Maldive islands too.`,
   },
@@ -21,7 +21,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/chol.gif',
+    img: '/images/uploads/2019/12/chol.gif',
     caption: null,
     text: null,
   },
@@ -58,8 +58,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/hoy1.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/hoy4.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/hoy1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/hoy4.jpg', caption: '' },
     ],
   },
   {
@@ -78,8 +78,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/hoy3.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/hoy4-1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/hoy3.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/hoy4-1.jpg', caption: '' },
     ],
   },
   {
@@ -107,8 +107,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/vish1.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/vish2.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vish1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/vish2.jpg', caption: '' },
     ],
   },
   {
@@ -126,7 +126,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2020/04/mohini.jpg',
+    img: '/images/uploads/2020/04/mohini.jpg',
     caption: null,
     text: `Vishnuvardhan was perhaps the greatest ruler of the Hoysala dynasty, not only he excelled in multiple wars, but also took great interest in building his kingdom, especially his capital Dwarasamudra (modern Halebidu) and Belur (the earlier capital). Two of the finest temples of south India, ChennaKeshanva temple at Belur, dedicated to Lord Vishnu and Hoyasaleshwara temple at Halebidu, dedicated to Lord Shiva, were built by him. Some of the finest and most intricately carved sculptures are located in these two temples. A masterpiece is the well known sculpture of the Mohini, an avatar of Lord Vishnu when he took a form of a beautiful maiden to take up a task of distributing nectar, carved on one of the pillars of ChennaKeshava temple (shown on right).`,
   },
@@ -142,7 +142,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2020/04/gang.jpg',
+    img: '/images/uploads/2020/04/gang.jpg',
     caption: null,
     text: null,
   },
@@ -162,7 +162,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2020/04/ganga.jpg',
+    img: '/images/uploads/2020/04/ganga.jpg',
     caption: null,
     text: `Ganga Dynasty realm was sandwiched between two major power brokers, Pallava/Chola in south and Chalukyas/Rashtrakutas in north, which made this dynasty rulers often siding with their northern neighbors to save their territory. Initially they became vassals of Eastern Chalukyas (of Vatapi or Badami) and later the Rashtrakutas. They also had matrimonial relations with Chalukyan rulers. However, by 1000 AD, Cholas of Tanjavur became too powerful, who annexed the Ganga kingdom in their growing empire.`,
   },
@@ -187,8 +187,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/shant1.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/shant2.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/shant1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/shant2.jpg', caption: '' },
     ],
   },
   {
@@ -217,7 +217,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/kadm3.gif',
+    img: '/images/uploads/2019/12/kadm3.gif',
     caption: null,
     text: null,
   },
@@ -247,8 +247,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/kad1.gif', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/kad2.gif', caption: '' },
+      { img: '/images/uploads/2019/12/kad1.gif', caption: '' },
+      { img: '/images/uploads/2019/12/kad2.gif', caption: '' },
     ],
   },
   {
@@ -284,8 +284,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/bukk.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/04/Picture4-1.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/bukk.jpg', caption: '' },
+      { img: '/images/uploads/2020/04/Picture4-1.jpg', caption: '' },
     ],
   },
   {
@@ -305,8 +305,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/VijyHariharaIObv.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/VijyHariharaIRev-1.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/VijyHariharaIObv.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/VijyHariharaIRev-1.jpg', caption: '' },
     ],
   },
   {
@@ -333,8 +333,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/VijyKrishnObv.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/VijyKrishnRev.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/VijyKrishnObv.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/VijyKrishnRev.jpg', caption: '' },
     ],
   },
   {
@@ -354,8 +354,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/VijyVenkaObv.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/VijyVenkaRev.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/VijyVenkaObv.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/VijyVenkaRev.jpg', caption: '' },
     ],
   },
   {
@@ -381,7 +381,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2020/04/achu.jpg',
+    img: '/images/uploads/2020/04/achu.jpg',
     caption: null,
     text: null,
   },
@@ -402,8 +402,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/VijyGandaWalkObv.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/VijyGandWalkRev.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/VijyGandaWalkObv.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/VijyGandWalkRev.jpg', caption: '' },
     ],
   },
   {
@@ -431,7 +431,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2020/04/gandaberunda.jpg',
+    img: '/images/uploads/2020/04/gandaberunda.jpg',
     caption: null,
     text: null,
   },

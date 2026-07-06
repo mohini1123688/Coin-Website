@@ -15,7 +15,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Tipus-summer-Palace-Srirangapatanam.jpg',
+    img: '/images/uploads/2019/12/Tipus-summer-Palace-Srirangapatanam.jpg',
     caption: "Tipu's summer Palace, Srirangapatanam",
     text: `Mysore was a prosperous region of southern India ruled by various Hindu dynasties. In 1761, Haider Ali, a bandit who rose to be the commander of the army, deposed the king of Mysore, Wodeyar. Although, he took the control of this kingdom, he did not declare himself to be the ruler. His son, Tipu took over after Hyder Ali and promptly proclaimed himself Sultan. British who were trying to cement their rule in southern India soon found him to be the formidable enemy. Not long after, Tipu and British, commanded by Lord Cornwallis, were in battlefield. Tipu lost the third Anglo-Mysore war in 1792 and had to hand over half of his kingdom and two of his sons as hostages. However, the next round of confrontation was inevitable. Tipu harbored deep resentment against English, he was soon preparing for recovery of lost kingdom. To secure allies, Tipu sent emissaries to Constantinople, Kabul, Versailles and Arabia. He even asked help from French to displace British from south. This time, British acted swiftly and defeated Tipu at his capital, Srirangapatanam in 1799 in the fourth Anglo-Mysore war. Tipu died in the battle and the control of the kingdom reverted back to Wodeyars.`,
   },
@@ -30,8 +30,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/thumbnail_IMG_7911-1024x997.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/thumbnail_IMG_7912-958x1024.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/thumbnail_IMG_7911-1024x997.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/thumbnail_IMG_7912-958x1024.jpg', caption: '' },
     ],
   },
   {
@@ -57,8 +57,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/6583a.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2019/12/6583b.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/6583a.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/6583b.jpg', caption: '' },
     ],
   },
   {
@@ -76,7 +76,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/tips2.gif',
+    img: '/images/uploads/2019/12/tips2.gif',
     caption: null,
     text: null,
   },
@@ -95,14 +95,14 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/Maysuru-Palace.jpg',
+    img: '/images/uploads/2019/12/Maysuru-Palace.jpg',
     caption: 'Maysuru Palace',
     text: `After death of Tipu, British brought in the old reigning Wodeyar dynasty while retaining most military powers. Wodeyar kings especially Krishana Raja Wodeyar were able rulers and made Mysore (also known as Mysuru) as one the best governed and prosperous princely state of India by 20th century. Shown below are coins of this state. The coins issued by King's Dewan (prime minister) Purnaiya on behalf of King, shows a Shardula, a mythical tiger. The Shardula has been in usage on coins for earlier dynasties of Karnataka region, some of which are described in other sections of this website.`,
   },
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/wd.gif',
+    img: '/images/uploads/2019/12/wd.gif',
     caption: null,
     text: null,
   },
@@ -119,7 +119,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/w.gif',
+    img: '/images/uploads/2019/12/w.gif',
     caption: null,
     text: null,
   },
@@ -146,8 +146,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/AwadhGajhiObv.jpg', caption: '' },
-      { img: 'https://nupam.net/wp-content/uploads/2020/03/AwadhGajhiRev.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/AwadhGajhiObv.jpg', caption: '' },
+      { img: '/images/uploads/2020/03/AwadhGajhiRev.jpg', caption: '' },
     ],
   },
   {
@@ -173,7 +173,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/namj.gif',
+    img: '/images/uploads/2019/12/namj.gif',
     caption: null,
     text: null,
   },
@@ -192,7 +192,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/wjd.gif',
+    img: '/images/uploads/2019/12/wjd.gif',
     caption: null,
     text: null,
   },
@@ -228,7 +228,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/hyder.jpg',
+    img: '/images/uploads/2019/12/hyder.jpg',
     caption: null,
     text: null,
   },
@@ -247,7 +247,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/hy.gif',
+    img: '/images/uploads/2019/12/hy.gif',
     caption: null,
     text: null,
   },
@@ -273,7 +273,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/mb.gif',
+    img: '/images/uploads/2019/12/mb.gif',
     caption: null,
     text: null,
   },
@@ -298,7 +298,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/zab1.gif',
+    img: '/images/uploads/2019/12/zab1.gif',
     caption: null,
     text: null,
   },

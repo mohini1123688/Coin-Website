@@ -14,7 +14,7 @@ const content = [
 
   {
     type: 'figure', side: 'left',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/assm.gif',
+    img: '/images/uploads/2019/12/assm.gif',
     caption: null,
     text: null,
   },
@@ -40,7 +40,7 @@ const content = [
 
   {
     type: 'figure', side: 'right',
-    img: 'https://nupam.net/wp-content/uploads/2019/12/assm3.gif',
+    img: '/images/uploads/2019/12/assm3.gif',
     caption: null,
     text: null,
   },
