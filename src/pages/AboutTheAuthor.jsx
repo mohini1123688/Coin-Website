@@ -5,12 +5,7 @@ const content = [
     type: 'figure', side: 'left',
     img: '/images/uploads/2019/12/nupam_mahajan.jpg',
     caption: null,
-    text: `Dr. Nupam Mahajan is a Professor of Surgery, Cancer Researcher and a private coin collector who is passionate about Indian history. This website was built to inform the public about the lesser known side of the History of the Indian sub-continent, which includes modern day India, Bangladesh, Pakistan, Sri Lanka and Nepal. He will be happy to answer any questions regarding the information on this site, your personal coin collection, and much more. You can contact him at:`,
-  },
-
-  {
-    type: 'contact',
-    email: 'nupam@msn.com',
+    text: `Dr. Nupam Mahajan is a Professor of Surgery, Cancer Researcher and a private coin collector who is passionate about Indian history. This website was built to inform the public about the lesser known side of the History of the Indian sub-continent, which includes modern day India, Bangladesh, Pakistan, Sri Lanka and Nepal. He will be happy to answer any questions regarding the information on this site, your personal coin collection, and much more. You can contact him at: nupam@msn.com`,
   },
 
   { type: 'heading', text: 'Why a Webpage for Indian Coins?' },
