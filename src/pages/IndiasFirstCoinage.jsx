@@ -7,6 +7,7 @@ const content = [
     type: 'figure',
     side: 'right',
     img: '/images/uploads/2019/12/Lion-Capital-of-Ashoka.jpg',
+    className: 'lion',
     caption: 'The Lion Capital of Ashoka, Sarnath',
     text: `It is very difficult to know today where the concept of coinage first evolved, but based on available evidences, it appears that the concept of money as coins, which by definition here would be a piece of metal of defined weight stamped with symbol of authority for financial transaction, was conceived by three different civilizations independently and almost simultaneously. Coins were introduced as a means to trade things of daily usage in Greece (Archaic period), India and China in about 6th century BC. Most historians agree that the first coins of world were issued by Greeks living in Lydia and Ionia (located on the western coast of modern Turkey). These first coins were globules of Electrum, a naturally occurring alloy of gold and silver. These were crude coins of definite weight stamped with incuse punches issued by the local authorities in ~650 BC.`,
   },
@@ -35,6 +36,7 @@ const content = [
       {
         img: '/images/uploads/2019/12/anc1.gif',
         caption: 'Taxila Janapada, 600-303 BC, Silver, Satamana Bent bar, Two septa-radiate marks at ends, Uniface, Weight: 11.3 gm (100 ratti), Ref: MAC#4071',
+        className: 'tall_coin',
       },
       {
         img: '/images/uploads/2019/12/Narhan.jpg',
@@ -66,8 +68,11 @@ const content = [
     type: 'figure',
     side: 'left',
     img: '/images/uploads/2019/12/Yakshini-Statue.jpg',
-    caption: 'Yakshini, 1st Century BC, Mauryan Period, excavated on banks of river Ganga at Didarganj, Bihar,. Considered to be one of the greatest examples of Mauryan art. A life-size, tall, well-proportioned, highly polished sculpture reflects the artistic sensibility of the Mauryan period. This Chauri Bearer is carved out of a single piece of stone, Chunar Sandstone.',
-    text: `Each of the kingdom have issued distinct type of silver coins to facilitate the trade. Shown above are some of the earliest coins of Indian subcontinent. The Shakya Janapada coin was found near Narhan village in Uttar Pradesh state, located near Gomati river, a tributary of Ganga. This rectangular coin, made of almost pure silver, has seven distinct punch marks including central 'pentagon enclosing a sphere' punch mark. We have performed surface electron microscopy on this coin, which indicates that the central mark was punched last. None of those marks show much resemblance to punch marks routinely seen on coins of other Janapadas. Three other punch-marked coins of India minted by Taxila (Takshashila), Koshala and Ashmaka Janapadas are also shown.`,
+    className: 'yakshini',
+    caption: 'Yakshini, 1st Century BC, Mauryan Period, excavated on banks of river Ganga at Didarganj, Bihar.',
+    text: `Each of the kingdom have issued distinct type of silver coins to facilitate the trade. Shown above are some of the earliest coins of Indian subcontinent. The Shakya Janapada coin was found near Narhan village in Uttar Pradesh state, located near Gomati river, a tributary of Ganga. This rectangular coin, made of almost pure silver, has seven distinct punch marks including central 'pentagon enclosing a sphere' punch mark. We have performed surface electron microscopy on this coin, which indicates that the central mark was punched last. None of those marks show much resemblance to punch marks routinely seen on coins of other Janapadas. Three other punch-marked coins of India minted by Taxila (Takshashila), Koshala and Ashmaka Janapadas are also shown.
+
+    Considered to be one of the greatest examples of Mauryan art. A life-size, tall, well-proportioned, highly polished sculpture reflects the artistic sensibility of the Mauryan period. This Chauri Bearer is carved out of a single piece of stone, Chunar Sandstone.`,
   },
 
   {
@@ -84,13 +89,16 @@ const content = [
     images: [
       {
         img: '/images/uploads/2019/12/nkosh1.gif',
+        className: 'smaller1',
         caption: 'Koshala Janapada, 600-470 BC, Silver, One and Half Karshapana? Weight: 4.68 gm ( 48 ratti), Reference: Series III, Group A of Hardaker, Rare',
       },
       {
+        className: 'smaller2',
         img: '/images/uploads/2019/12/thumbnail_IMG_5726-150x150.jpg',
         caption: 'Kuru Janapada, 500-350 BC, Silver, half Karshapana, Uniface, Weight: 1.6 gm',
       },
       {
+        className: 'smaller3',
         img: '/images/uploads/2019/12/ashm1.gif',
         caption: 'Kalinga Janapada 500-350 BC, Silver, half Karshapana, Uniface, Weight: 1.6 gm, Very Rare',
       },
@@ -261,7 +269,7 @@ export default function IndiasFirstCoinage() {
             return (
               <section className={`media-row media-row--${block.side}`} key={i}>
                 <figure className="media-row__figure">
-                  <img src={block.img} alt={block.caption || ''} loading="lazy" />
+                  <img src={block.img} alt={block.caption || ''} loading="lazy" className={block.className || ''}/>
                   {block.caption && <figcaption>{block.caption}</figcaption>}
                 </figure>
                 {block.text && <p className="media-row__text">{block.text}</p>}
@@ -270,10 +278,15 @@ export default function IndiasFirstCoinage() {
 
           case 'gallery':
             return (
-              <section className="coin-gallery" key={i}>
+              <section className="coin-gallery_first" key={i}>
                 {block.images.map((im, j) => (
-                  <figure className="coin-gallery__item" key={j}>
-                    <img src={im.img} alt={im.caption || ''} loading="lazy" />
+                  <figure className="coin-gallery__item_first" key={j}>
+                    <img
+  src={im.img}
+  alt={im.caption || ''}
+  loading="lazy"
+  className={im.className || ''}
+/>
                     {im.caption && <figcaption>{im.caption}</figcaption>}
                   </figure>
                 ))}
@@ -299,9 +312,9 @@ export default function IndiasFirstCoinage() {
 
           case 'caption-block':
             return (
-              <aside className="coin-caption" key={i}>
-                <p className="coin-caption__title">{block.title}</p>
-                {block.lines.map((l, j) => <p className="coin-caption__line" key={j}>{l}</p>)}
+              <aside className="coin-caption_first" key={i}>
+                <p className="coin-caption__title_first">{block.title}</p>
+                {block.lines.map((l, j) => <p className="coin-caption__line_first" key={j}>{l}</p>)}
               </aside>
             );
 

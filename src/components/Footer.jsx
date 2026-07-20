@@ -20,7 +20,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="site-footer__inner">
         <div className="site-footer__brand">
-          <span className="site-footer__coin" aria-hidden="true" />
+          <img src='/images/uploads/2019/12/vima3.jpg' alt="" className="brand__coin" />
           <p className="site-footer__name">Nupam's Indian Coins</p>
           <p className="site-footer__blurb">
             A personal collection of Indian coins and the rich history of the subcontinent.
