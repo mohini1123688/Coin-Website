@@ -47,12 +47,12 @@
 
 .media-row__figure img.lion {
   width: auto;
-  height: 20rem;
+  height: 25rem;
 }
 
 .media-row__figure img.yakshini{
   width: auto;
-  height: 25rem;
+  height: 30rem;
 }
 .media-row__figure figcaption {
   font-size: 0.72rem;
@@ -96,6 +96,18 @@
   height: 15rem;
 }
 
+.coin-gallery__item_first img.smaller1{
+  width: 8rem;
+  height: 8rem;
+}
+.coin-gallery__item_first img.smaller2{
+  width: 8rem;
+  height: 8rem;
+}
+.coin-gallery__item_first img.smaller1{
+  width: 8rem;
+  height: 8rem;
+}
 .coin-gallery__item_first figcaption {
   font-size: 0.7rem;
   line-height: 1.4;
