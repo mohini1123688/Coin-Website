@@ -140,12 +140,25 @@ const content = [
       `His son Ashoka seized Pataliputra after his father's death and enthroned himself as emperor. Ashoka is the greatest emperor of Muaryan dynasty and most certainly one of the greatest figure in the Indian history. He was an ambitious ruler who annexed a large part of southern and eastern India, including the kingdom of Kalinga (modern Orissa).`,
     ],
   },
-
   {
     type: 'gallery',
     images: [
-      { img: '/images/uploads/2019/12/3men.gif', caption: '' },
-      { img: '/images/uploads/2019/12/3men2.gif', caption: '' },
+      {
+        img: '/images/uploads/2019/12/3men.gif',
+        caption: 'Obverse: 3 deities (Kartikeya) and peacock',
+      },
+      {
+        img: '/images/uploads/2019/12/3men2.gif',
+        caption: 'Reverse: Peacock on hill',
+      },
+      {
+        img: '/images/uploads/2019/12/a1-215x300.jpg',
+        caption: 'Obverse: 3 deities (Kartikeya) and peacock',
+      },
+      {
+        img: '/images/uploads/2019/12/a2-218x300.jpg',
+        caption: 'Reverse: Peacock on hill',
+      },
     ],
   },
   {
@@ -160,15 +173,6 @@ const content = [
       'Rare (rare to see deities on punchmarked coins)',
     ],
   },
-
-  {
-    type: 'gallery',
-    images: [
-      { img: '/images/uploads/2019/12/a1-215x300.jpg', caption: '' },
-      { img: '/images/uploads/2019/12/a2-218x300.jpg', caption: '' },
-    ],
-  },
-
   {
     type: 'text',
     paragraphs: [
@@ -180,8 +184,8 @@ const content = [
   {
     type: 'gallery',
     images: [
-      { img: '/images/uploads/2019/12/m2-150x150.jpg', caption: '' },
-      { img: '/images/uploads/2019/12/m3-150x150.jpg', caption: '' },
+      { img: '/images/uploads/2019/12/m2-150x150.jpg', caption: 'Obverse: Deity, Shiva (?) Standing, Sun and 4 other punchmarks' },
+      { img: '/images/uploads/2019/12/m3-150x150.jpg', caption: 'Reverse: A single punchmark' },
     ],
   },
   {
@@ -266,86 +270,119 @@ const content = [
 ];
 
 export default function IndiasFirstCoinage() {
-  return (
-    <article className="page coinage-page">
-      {content.map((block, i) => {
-        switch (block.type) {
-          case 'heading':
-            return <h2 className="section-heading" key={i}>{block.text}</h2>;
+  function renderBlock(block, i) {
+    switch (block.type) {
+      case 'heading':
+        return <h2 className="section-heading" key={i}>{block.text}</h2>;
 
-          case 'figure':
-            if (block.coin) {
-              return (
-                <section className="coin-feature" key={i}>
-                  <figure className="coin-feature__figure">
-                    <img
-                      src={block.img}
-                      alt={block.caption || ''}
-                      loading="lazy"
-                      className={block.className || ''}
-                    />
-                    {block.caption && <figcaption>{block.caption}</figcaption>}
-                  </figure>
-                  {block.text && <p className="coin-feature__text">{block.text}</p>}
-                </section>
-              );
-            }
-            return (
-              <section className={`media-row media-row--${block.side}`} key={i}>
-                <figure className="media-row__figure">
-                  <img src={block.img} alt={block.caption || ''} loading="lazy" className={block.className || ''}/>
-                  {block.caption && <figcaption>{block.caption}</figcaption>}
-                </figure>
-                {block.text && <p className="media-row__text">{block.text}</p>}
-              </section>
-            );
-
-          case 'gallery':
-            return (
-              <section className="coin-gallery_first" key={i}>
-                {block.images.map((im, j) => (
-                  <figure className="coin-gallery__item_first" key={j}>
-                    <img
-                      src={im.img}
-                      alt={im.caption || ''}
-                      loading="lazy"
-                      className={im.className || ''}
-                    />
-                    {im.caption && <figcaption>{im.caption}</figcaption>}
-                  </figure>
-                ))}
-              </section>
-            );
-
-          case 'text':
-            return (
-              <section className="plain-text" key={i}>
-                {block.paragraphs.map((p, j) => <p key={j}>{p}</p>)}
-              </section>
-            );
-
-          case 'list':
-            return (
-              <section className="plain-text" key={i}>
-                <p>{block.intro}</p>
-                <ul className="janapada-list">
-                  {block.items.map((it, j) => <li key={j}>{it}</li>)}
-                </ul>
-              </section>
-            );
-
-          case 'caption-block':
-            return (
-              <aside className="coin-caption_first" key={i}>
-                <p className="coin-caption__title_first">{block.title}</p>
-                {block.lines.map((l, j) => <p className="coin-caption__line_first" key={j}>{l}</p>)}
-              </aside>
-            );
-
-          default:
-            return null;
+      case 'figure':
+        if (block.coin) {
+          return (
+            <section className="coin-feature" key={i}>
+              <figure className="coin-feature__figure">
+                <img
+                  src={block.img}
+                  alt={block.caption || ''}
+                  loading="lazy"
+                  className={block.className || ''}
+                />
+                {block.caption && <figcaption>{block.caption}</figcaption>}
+              </figure>
+              {block.text && <p className="coin-feature__text">{block.text}</p>}
+            </section>
+          );
         }
-      })}
-    </article>
-  );
+        return (
+          <section className={`media-row media-row--${block.side}`} key={i}>
+            <figure className="media-row__figure">
+              <img src={block.img} alt={block.caption || ''} loading="lazy" className={block.className || ''}/>
+              {block.caption && <figcaption>{block.caption}</figcaption>}
+            </figure>
+            {block.text && <p className="media-row__text">{block.text}</p>}
+          </section>
+        );
+
+      case 'gallery':
+        return (
+          <section className="coin-gallery_first" key={i}>
+            {block.images.map((im, j) => (
+              <figure className="coin-gallery__item_first" key={j}>
+                <img
+                  src={im.img}
+                  alt={im.caption || ''}
+                  loading="lazy"
+                  className={im.className || ''}
+                />
+                {im.caption && <figcaption>{im.caption}</figcaption>}
+              </figure>
+            ))}
+          </section>
+        );
+
+      case 'text':
+        return (
+          <section className="plain-text" key={i}>
+            {block.paragraphs.map((p, j) => <p key={j}>{p}</p>)}
+          </section>
+        );
+
+      case 'list':
+        return (
+          <section className="plain-text" key={i}>
+            <p>{block.intro}</p>
+            <ul className="janapada-list">
+              {block.items.map((it, j) => <li key={j}>{it}</li>)}
+            </ul>
+          </section>
+        );
+
+      case 'caption-block':
+        return (
+          <aside className="coin-caption_first" key={i}>
+            <p className="coin-caption__title_first">{block.title}</p>
+            {block.lines.map((l, j) => <p className="coin-caption__line_first" key={j}>{l}</p>)}
+          </aside>
+        );
+
+      default:
+        return null;
+    }
+  }
+
+  const nodes = [];
+  for (let i = 0; i < content.length; i++) {
+    const block = content[i];
+    const next = content[i + 1];
+
+    // Pair a gallery with an immediately-following caption-block: image(s) left, caption right
+    if (block.type === 'gallery' && next?.type === 'caption-block') {
+      nodes.push(
+        <section className="gallery-caption-row" key={i}>
+          <div className="coin-gallery_first coin-gallery_first--paired">
+            {block.images.map((im, j) => (
+              <figure className="coin-gallery__item_first" key={j}>
+                <img
+                  src={im.img}
+                  alt={im.caption || ''}
+                  loading="lazy"
+                  className={im.className || ''}
+                />
+                {im.caption && <figcaption>{im.caption}</figcaption>}
+              </figure>
+            ))}
+          </div>
+          <aside className="coin-caption_first coin-caption_first--paired">
+            <p className="coin-caption__title_first">{next.title}</p>
+            {next.lines.map((l, j) => <p className="coin-caption__line_first" key={j}>{l}</p>)}
+          </aside>
+        </section>
+      );
+      i += 1; // consume the caption-block too, skip its normal render pass
+      continue;
+    }
+
+    nodes.push(renderBlock(block, i));
+  }
+
+  return <article className="page coinage-page">{nodes}</article>;
 }
