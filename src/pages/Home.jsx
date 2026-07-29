@@ -38,7 +38,6 @@ export default function Home() {
   return (
     <article className="page home">
       <h1>Nupam's Website of Indian Coins</h1>
-      <ViewerCounter />
 
       {blocks.map((b, i) => (
         <section className="home-row" key={i}>
@@ -51,6 +50,9 @@ export default function Home() {
 
       <p>Feel free to contact me for all the additional information that you may like to know about any coin/s.</p>
       <p>Dr Nupam Mahajan (<a href="mailto:nupam@msn.com">nupam@msn.com</a>)</p>
+
+      <ViewerCounter />
     </article>
+    
   );
 }

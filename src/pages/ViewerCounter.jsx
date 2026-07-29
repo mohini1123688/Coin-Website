@@ -42,7 +42,7 @@ export default function ViewerCounter() {
 
   return (
     <div className="viewer-counter" aria-label={`Visitor count: ${count ?? '...'}`}>
-      <span className="viewer-counter__label">Visitors Since Site reupload: </span>
+      <span className="viewer-counter__label">Visitors Since Site relaunched in 2026: </span>
       <div className="viewer-counter__odometer">
         {count === null ? (
           <span className="viewer-counter__loading">· · ·</span>
