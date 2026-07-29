@@ -110,6 +110,7 @@ const content = [
   {
     type: 'figure',
     side: 'right',
+    coin: true,
     img: '/images/uploads/2019/12/m1-150x150.jpg',
     caption: 'Bimbisara and Ajatashatru, Magadh, 500-430 BC, AR Karshapana, 3.6 gms, Reference: GH#189, Series I, Rare',
     text: `Most of these Janapadas were subsequently absorbed into Magadha Kingdom (ruled by Saisunaga dynasty) between 600-321 BC. Pradyotas of Avanti were defeated by Saisunaga in 400 BC. The most remarkable king of Magadha was Bimbisara (also called Shrenika) who ascended on throne in 545 BC. He annexed kingdom of Anga (east Bihar) and married princesses of Koshala and Vaishali thereby expanding his kingdom to the borders of Nepal. He was a very efficient administrator and built the city of RajGriha (Rajgir in Bihar state). Both, Goutam Buddha and Mahavir Jain preached their doctrines during his reign. His son Ajatshatru (494-462 BC) defeated many of his adversaries including humbling his uncle Presanjit of Koshala. He founded the city Pataliputra (modern Patna), which was metropolis of ancient India for next four centuries.`,
@@ -210,8 +211,6 @@ const content = [
     paragraphs: [
       `Emperor Ashoka drew up a code of laws noted for their humanity and erected hundreds of stone pillars and magnificent Buddhist Stupas (dome shaped monuments). It is believed that Ashoka erected almost 85,000 stupas and pillars, all carved in stone with teachings of Buddhism engraved on them. After two thousand years, we can still see ruins of them in most states of India including Gujrat, Uttar Pradesh, Bihar, Madhya Pradesh, Andhra/Telangana, Tamilnadu and Northwestern India (modern Pakistan). Ashoka's Eddicts, carved on pillars and rocks, form the earliest known epigraphs in the subcontinent. These pillars are made out of shafts of sandstone and display Buddhist symbols such as the wheel and the lion. These pillars and capitals on top of them are some of India's earliest major stone sculptures.`,
       `The statue of Yakshini (shown above), excavated on banks of river Ganga at Didarganj, near Patna, Bihar, is considered one of the greatest examples of Mauryan art. A life-size, tall, well-proportioned, highly polished sculpture reflects the artistic sensibility of the Mauryan period. This Chauri Bearer is carved out of a single piece of stone, Chunar Sandstone in 1st century BC.`,
-      `The great Stupa at Sanchi is perhaps the finest surviving relic of the Mauryan empire. This great stupa is 54 feet in height and surrounded by exquisitely carved stone railings and four gateways. These elaborately carved gateways depicts events in life of Buddha and also lifestyle of people of that era. A famous Lion-Capital (four-lion pillar which is shown above) gleams in polished white sandstone realistically represents the artistic achievements of Indian artists and patronage of their masters. This Lion-Capital that Ashoka erected at Sarnath (in modern Madhya Pradesh state) has become the national emblem of modern republic of India. All the coins and currency notes of modern India have this four-lion symbol on it.`,
-      `The Mauryan Empire is famous for its great achievements in art, culture architecture and literature. The classics of Indian literature, such as the Arthashastra of Kautilya (a treatise for kings about ruling a state) and the famous Kama Sutra by Vatsayan were written during Mauryan reign.`,
     ],
   },
 
@@ -219,8 +218,16 @@ const content = [
     type: 'figure',
     side: 'left',
     img: '/images/uploads/2019/12/Stupa-of-Sanchi.jpeg',
+    className: 'stupa',
     caption: 'Stupa of Sanchi',
-    text: null,
+    text: `The great Stupa at Sanchi is perhaps the finest surviving relic of the Mauryan empire. This great stupa is 54 feet in height and surrounded by exquisitely carved stone railings and four gateways. These elaborately carved gateways depicts events in life of Buddha and also lifestyle of people of that era. A famous Lion-Capital (four-lion pillar which is shown above) gleams in polished white sandstone realistically represents the artistic achievements of Indian artists and patronage of their masters. This Lion-Capital that Ashoka erected at Sarnath (in modern Madhya Pradesh state) has become the national emblem of modern republic of India. All the coins and currency notes of modern India have this four-lion symbol on it.`,
+  },
+
+  {
+    type: 'text',
+    paragraphs: [
+      `The Mauryan Empire is famous for its great achievements in art, culture architecture and literature. The classics of Indian literature, such as the Arthashastra of Kautilya (a treatise for kings about ruling a state) and the famous Kama Sutra by Vatsayan were written during Mauryan reign.`,
+    ],
   },
 
   { type: 'heading', text: 'POST-MAURYAN PERIOD' },
@@ -228,6 +235,7 @@ const content = [
   {
     type: 'figure',
     side: 'right',
+    coin: true,
     img: '/images/uploads/2019/12/kun.gif',
     caption: null,
     text: `Ashoka was the last emperor of Mauryan empire which started it's decline soon after his death. Many kingdom arose out of ruins of this great empire. Northern India was divided into many republics (?) which were controlled by various ganas (tribes) like Achuyta, Ahicchatra, Arjunayana, Ayodhya, Eran, Kaushambi, Kuninda etc. The coins issued by these republics/Kingdoms are very interesting both historically and numismatically.`,
@@ -266,6 +274,22 @@ export default function IndiasFirstCoinage() {
             return <h2 className="section-heading" key={i}>{block.text}</h2>;
 
           case 'figure':
+            if (block.coin) {
+              return (
+                <section className="coin-feature" key={i}>
+                  <figure className="coin-feature__figure">
+                    <img
+                      src={block.img}
+                      alt={block.caption || ''}
+                      loading="lazy"
+                      className={block.className || ''}
+                    />
+                    {block.caption && <figcaption>{block.caption}</figcaption>}
+                  </figure>
+                  {block.text && <p className="coin-feature__text">{block.text}</p>}
+                </section>
+              );
+            }
             return (
               <section className={`media-row media-row--${block.side}`} key={i}>
                 <figure className="media-row__figure">
@@ -282,11 +306,11 @@ export default function IndiasFirstCoinage() {
                 {block.images.map((im, j) => (
                   <figure className="coin-gallery__item_first" key={j}>
                     <img
-  src={im.img}
-  alt={im.caption || ''}
-  loading="lazy"
-  className={im.className || ''}
-/>
+                      src={im.img}
+                      alt={im.caption || ''}
+                      loading="lazy"
+                      className={im.className || ''}
+                    />
                     {im.caption && <figcaption>{im.caption}</figcaption>}
                   </figure>
                 ))}

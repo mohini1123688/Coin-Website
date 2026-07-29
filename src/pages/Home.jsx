@@ -1,4 +1,5 @@
 import './Home.css';
+import ViewerCounter from './ViewerCounter';
 
 const blocks = [
   {
@@ -37,6 +38,7 @@ export default function Home() {
   return (
     <article className="page home">
       <h1>Nupam's Website of Indian Coins</h1>
+      <ViewerCounter />
 
       {blocks.map((b, i) => (
         <section className="home-row" key={i}>
