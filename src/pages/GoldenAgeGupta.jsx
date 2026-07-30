@@ -4,14 +4,14 @@ const content = [
   { type: 'heading', text: 'Coins of Gupta Dynasty / Golden Age of India' },
 
   {
-    type: 'figure', side: 'right',
+    type: 'figure', side: 'right', size: 'large',
     img: '/images/uploads/2019/12/Statue-of-Lord-Vishnu-Dashavatar-Temple-Deogarh.jpg',
     caption: 'Statue of Lord Vishnu; below 5 Pandavas with wife Droupadi or Panchali, Dashavatar Temple, Deogarh',
     text: `By the fourth century AD, political and military turmoil destroyed the Kushan empire in the north and many kingdoms in the south India. At this juncture, India was invaded by a series of foreigners and barbarians or Mlechchhas from the north western frontier region and central Asia. It signaled the emergence of a leader, a Magadha ruler, Chandragupta I. Chandragupta successfully combated the foreign invasion and laid foundation of the great Gupta dynasty, the emperors of which ruled for the next 300 years, bringing the most prosperous era in the Indian history.`,
   },
 
   {
-    type: 'figure', side: 'left',
+    type: 'figure', side: 'left', size: 'large',
     img: '/images/uploads/2019/12/Dashavatar-Temple-1024x768.jpg',
     caption: 'Dashavatar Temple',
     text: `The reign of Gupta emperors can truly be considered as the golden age of classical Indian history. Srigupta I (270-290 AD) who was perhaps a petty ruler of Magadha (modern Bihar) established Gupta dynasty with Patliputra or Patna as its capital. He and his son Ghatotkacha (290-305 AD) have left very little evidences of their rule and did not issue any coins of their own (although there have been reports of coins of Shrigupta which need thorough studies). Ghatotkacha was succeeded by his son Chandragupta I (305-325 AD) who strengthened his kingdom by matrimonial alliance with the powerful family of Lichchavi, who were rulers of Mithila kingdom. His marriage to Lichchhavi princess Kumaradevi, brought an enormous power, resources and prestige. He took advantage of the situation and occupied whole of fertile Gangetic valley. Chandragupta I eventually assumed the title of Maharajadhiraja (emperor) in formal coronation.`,
@@ -109,21 +109,26 @@ const content = [
   },
 
   {
-    type: 'gallery',
-    images: [
-      { img: '/images/uploads/2019/12/Gaja-Laxmi-Bharhut-Stupa.jpg', caption: 'Gaja-Laxmi, Bharhut Stupa' },
-      { img: '/images/uploads/2019/12/Gaja-Laxmi-Sanchi-Stupa.jpg', caption: 'Gaja-Laxmi, Sanchi Stupa' },
-    ],
-  },
-
-  {
     type: 'text',
     paragraphs: [
       `Samudragupta paid considerable attention and left an extensive coinage. Samudragupta minted seven distinct types of coins: standard type, the archer type, Battle Axe type (refers to his military activities), Ashwamedha type (Commemorating the horse sacrifice ceremony), tiger slayer type, King and queen type (shown above) and Lyrist types (shown below).`,
       `All Gupta emperors minted beautiful gold coins which have evoked widespread admiration for their technical and sculptural finesse. Significantly, these coins are minted with meticulous planning, reflected in the fine details and the volume of message that these coins provides. Most Gupta gold coins weighed close to 7.6-8.0 grams and had Sri-Laxmi (goddess of wealth) depicted on reverse side of the coin. Both the weight standard and the concept of presence of deity on coins is almost certainly borrowed from the late Kushana gold coinage. The symbols, phrasing of Sanskrit legends (written in Bramhi script), size, weight and gold content in their coins appears to have been meticulously planned and executed.`,
-      `The second coin shown above is a 'Standard or Royal Sceptre type' coin, which depicts Samudragupta, a tall man with sharp features making an offering at an altar with his right hand, and his left hand holds the Standard or royal sceptre (Rajadanda). The king sacrificing at altar was the common obverse design on Vima's and Kanishka's coins, and later Kushan rulers too used this motif almost exclusively. Below his left arm his name Samudra is written, while legends at edge of coin reads Samara Sata Vitata Vijayo Jita Ripurajito Divam Jayati (the invincible king who had won hundred battles). The Gupta emblem, Garuda, a mythical bird, also considered as a vehicle of Lord Vishnu (husband of Sri Laxmi) is seen on the left. The legends are in Sanskrit written in Brahmi script. On reverse is Sri-Laxmi (the goddess of wealth) seated on throne. The legend on right reads Parakramah in Brahmi. This is one of the earliest issue of Gupta gold staters or Dinara.`,
-      `Laxmi or Lakshmi (also known by her other names such as Sri or Sridevi) is part of the trinity, the Tridevi, with Parvati (Ambika) and Saraswati being other two goddesses. Although first mentioned in Rigveda and Atharvaveda, composed around 1000 BC, the earliest iconographic evidence of Laxmi is mostly seen as Gaja-Laxmi, accompanied by two elephants (Gaja means elephant) at two ancient places, Bharhut stupa, built during Mauryan-Shunga period, 2nd centiry BC (top image) and Sanchi Stupa, built by Mauryan-Shunga and Satavahana dynasties (199-100 BC) (lower image). Here she is shown either standing or sitting on lotus, holding flower in her hand. Elephants are associated with opulence, and Laxmi is shown to be showered by gold(?) coins by elephants, an apt depiction of goddess of wealth. Being widely accepted image since Mauryan period, Gupta rulers first issued gold coins with Laxmi, a masterstroke by Samudragupta. This remained as the most iconic symbol on gold coins for another 700 years!`,
     ],
+  },
+
+  {
+    type: 'figure', side: 'left',
+    img: '/images/uploads/2019/12/Gaja-Laxmi-Bharhut-Stupa.jpg',
+    caption: 'Gaja-Laxmi, Bharhut Stupa',
+    text: `The second coin shown above is a 'Standard or Royal Sceptre type' coin, which depicts Samudragupta, a tall man with sharp features making an offering at an altar with his right hand, and his left hand holds the Standard or royal sceptre (Rajadanda). The king sacrificing at altar was the common obverse design on Vima's and Kanishka's coins, and later Kushan rulers too used this motif almost exclusively. Below his left arm his name Samudra is written, while legends at edge of coin reads Samara Sata Vitata Vijayo Jita Ripurajito Divam Jayati (the invincible king who had won hundred battles). The Gupta emblem, Garuda, a mythical bird, also considered as a vehicle of Lord Vishnu (husband of Sri Laxmi) is seen on the left. The legends are in Sanskrit written in Brahmi script. On reverse is Sri-Laxmi (the goddess of wealth) seated on throne. The legend on right reads Parakramah in Brahmi. This is one of the earliest issue of Gupta gold staters or Dinara.`
+,
+  },
+
+  {
+    type: 'figure', side: 'right',
+    img: '/images/uploads/2019/12/Gaja-Laxmi-Sanchi-Stupa.jpg',
+    caption: 'Gaja-Laxmi, Sanchi Stupa',
+    text: `Laxmi or Lakshmi (also known by her other names such as Sri or Sridevi) is part of the trinity, the Tridevi, with Parvati (Ambika) and Saraswati being other two goddesses. Although first mentioned in Rigveda and Atharvaveda, composed around 1000 BC, the earliest iconographic evidence of Laxmi is mostly seen as Gaja-Laxmi, accompanied by two elephants (Gaja means elephant) at two ancient places, Bharhut stupa, built during Mauryan-Shunga period, 2nd centiry BC (top image) and Sanchi Stupa, built by Mauryan-Shunga and Satavahana dynasties (199-100 BC) (lower image). Here she is shown either standing or sitting on lotus, holding flower in her hand. Elephants are associated with opulence, and Laxmi is shown to be showered by gold(?) coins by elephants, an apt depiction of goddess of wealth. Being widely accepted image since Mauryan period, Gupta rulers first issued gold coins with Laxmi, a masterstroke by Samudragupta. This remained as the most iconic symbol on gold coins for another 700 years!`,
   },
 
   {
@@ -177,7 +182,7 @@ const content = [
   { type: 'heading', text: 'VIKRAMADITYA or CHANDRAGUPTA II (380 to 413 AD)' },
 
   {
-    type: 'figure', side: 'right',
+    type: 'figure', side: 'right', size: 'large',
     img: '/images/uploads/2019/12/Iron-Pillar-of-Chandragupta-Delhi.jpg',
     caption: 'Iron Pillar of Chandragupta, Delhi',
     text: `It is very apt to say, like father like son. Samudragupta's son, Chandragupta II tried to be better than his father, and most historians agree, he was certainly successful. Vikramaditya is THE LEGENDARY emperor of India. More stories/legends are associated with him than any other ruler of India. It was during his (and his son Kumargupta) reign, India was at the pinnacle of prosperity and opulence. Although named after his grandfather Chandragupta, he took a title of Vikramaditya, which became a synonym for sovereign of tremendous power and wealth. This title was later taken up by scores of other sovereign rulers of India.`,
@@ -191,7 +196,7 @@ const content = [
   },
 
   {
-    type: 'figure', side: 'left',
+    type: 'figure', side: 'left', size: 'large',
     img: '/images/uploads/2019/12/Vic1.jpg',
     caption: null,
     text: null,
@@ -218,7 +223,7 @@ const content = [
   },
 
   {
-    type: 'figure', side: 'right',
+    type: 'figure', side: 'right', size: 'large',
     img: '/images/uploads/2019/12/vkrd.gif',
     caption: null,
     text: `Vikramaditya's reign was perhaps the most prosperous and progressive reign in the Indian history. The contemporary Chinese traveler and Buddhist monk Fa-hein was struck with the prosperity of subject during Gupta rule. He has admired the royal palaces and houses for dispensing charity medicine. He speaks highly of system of Government.`,
@@ -244,7 +249,7 @@ const content = [
   },
 
   {
-    type: 'figure', side: 'left',
+    type: 'figure', side: 'left', size: 'large',
     img: '/images/uploads/2019/12/vic2.jpg',
     caption: null,
     text: null,
@@ -271,7 +276,7 @@ const content = [
   },
 
   {
-    type: 'figure', side: 'right',
+    type: 'figure', side: 'right', size: 'large',
     img: '/images/uploads/2019/12/vic3.jpg',
     caption: null,
     text: null,
@@ -330,7 +335,7 @@ const content = [
   },
 
   {
-    type: 'figure', side: 'left',
+    type: 'figure', side: 'left', size: 'large',
     img: '/images/uploads/2019/12/kumar1.jpg',
     caption: null,
     text: null,
@@ -418,7 +423,7 @@ const content = [
   },
 
   {
-    type: 'figure', side: 'left',
+    type: 'figure', side: 'left', size: 'large',
     img: '/images/uploads/2020/03/skanda.jpg',
     caption: null,
     text: null,
@@ -462,24 +467,32 @@ const content = [
   },
 
   {
-    type: 'gallery',
-    images: [
-      { img: '/images/uploads/2019/12/1200px-Varahavtar_Panel-1024x685.jpg', caption: 'Varaha Avatar of Lord Vishnu rescuing earth, 5th century Gupta Period, Udayagiri Caves' },
-      { img: '/images/uploads/2020/08/Mithuna-terra-cotta-sculpture-ce-Gupta-India-Honolulu.jpg', caption: 'Mithuna, Terracota sculpture, 5th Century, Gupta period, Honolulu Academy of Arts' },
+    type: 'text',
+    paragraphs: [
+      `In spite of heroic efforts of SkandaGupta, Gupta empire did not survive long the shock it received from invasion of the Huns and internal uprising. Although there was some sort of unity till reign of the last king Budhagupta in the 6th century AD.`,
     ],
+  },
+
+  {
+    type: 'figure', side: 'left', size: 'large',
+    img: '/images/uploads/2019/12/1200px-Varahavtar_Panel-1024x685.jpg',
+    caption: 'Varaha Avatar of Lord Vishnu rescuing earth, 5th century Gupta Period, Udayagiri Caves',
+    text: `Kings of Gupta dynasty were the great patrons of art, culture, languages, mathematics and science. Unfortunately, very few monuments built during Gupta reign survive today. The best examples of Gupta art is found at Udaygiri caves (shown on left), where one can see inscription of Chndragupta II & Kumargupta. The examples of the Gupta art & architecture is also seen at Dashavatar temple, dedicated to Lord Vishnu, at Deogarh, Uttar Pradesh. It is the oldest surviving Hindu temple. Other temples built during Gupta era are, the Kankali Devi temple in Tigawa near Jabalpur, Madhya Pradesh, Vishnu Temple (and colossal Varaha boar statue) at Eran, Shiva Temple at Bhumara, Parvati Temple at Nachna, Gupta temple at Sanchi and Jagannath temple at Bhitargaon. The Bhitargaon temple also has unique distinction of the oldest surviving brick/terracotta temple. These temples together greatly helped Alexander Cunningham to identify characteristic markers of ancient Hindu temples and to chronologically place early Indian architecture.`,
+  },
+
+  {
+    type: 'figure', side: 'right',
+    img: '/images/uploads/2020/08/Mithuna-terra-cotta-sculpture-ce-Gupta-India-Honolulu.jpg',
+    caption: 'Mithuna, Terracota sculpture, 5th Century, Gupta period, Honolulu Academy of Arts',
+    text: `Many of the finest paintings of ancient India were executed during Gupta period (320-600 AD), the best example being the murals at Ajanta Caves. The colorful and vibrant murals at Ajanta are famous not only for the meticulously observed details of nature and the urban landscape, including architecture and furnishing, elegant attire and alluring ornaments but also for perceptive delineations of a variety of human characters, expressions and moods. Ajanta caves which are located at western Maharashtra were part of local Vakataka kingdom which had matrimonial relations with imperial Guptas. The rich and sensuous life at Vakataka court and of Gupta India in general is realistically displayed in these murals.`,
   },
 
   {
     type: 'text',
     paragraphs: [
-      `In spite of heroic efforts of SkandaGupta, Gupta empire did not survive long the shock it received from invasion of the Huns and internal uprising. Although there was some sort of unity till reign of the last king Budhagupta in the 6th century AD.`,
-      `Kings of Gupta dynasty were the great patrons of art, culture, languages, mathematics and science. Unfortunately, very few monuments built during Gupta reign survive today. The best examples of Gupta art is found at Udaygiri caves (shown on left), where one can see inscription of Chndragupta II & Kumargupta. The examples of the Gupta art & architecture is also seen at Dashavatar temple, dedicated to Lord Vishnu, at Deogarh, Uttar Pradesh. It is the oldest surviving Hindu temple. Other temples built during Gupta era are, the Kankali Devi temple in Tigawa near Jabalpur, Madhya Pradesh, Vishnu Temple (and colossal Varaha boar statue) at Eran, Shiva Temple at Bhumara, Parvati Temple at Nachna, Gupta temple at Sanchi and Jagannath temple at Bhitargaon. The Bhitargaon temple also has unique distinction of the oldest surviving brick/terracotta temple. These temples together greatly helped Alexander Cunningham to identify characteristic markers of ancient Hindu temples and to chronologically place early Indian architecture.`,
-      `Many of the finest paintings of ancient India were executed during Gupta period (320-600 AD), the best example being the murals at Ajanta Caves. The colorful and vibrant murals at Ajanta are famous not only for the meticulously observed details of nature and the urban landscape, including architecture and furnishing, elegant attire and alluring ornaments but also for perceptive delineations of a variety of human characters, expressions and moods. Ajanta caves which are located at western Maharashtra were part of local Vakataka kingdom which had matrimonial relations with imperial Guptas. The rich and sensuous life at Vakataka court and of Gupta India in general is realistically displayed in these murals.`,
       `The Iron Pillar, 24 feet high and weighing 13,000 lbs, located at Meharulli, Delhi is a fine example of the great scientific achievements of Gupta reign (shown above). In spite of being 1600 years old, this Iron Pillar is still standing without any rust. It is widely believed that this pillar was erected by Chandragupta II, Vikramaditya.`,
       `The greatest Sanskrit poet Kalidasa who wrote Meghdoot and Kumarsamhita lived during Gupta period and suggested to be in Vikramaditya's court (although this is doubtful). He also wrote another five-act Sanskrit play, Vikramōrvaśīyam (Urvashi Won by Valour), which is based on the a story of king Pururava who falls in love with Urvashi, an Apsara (a celestial nymph). The works of Kalidasa exemplify the literary craftsmanship of this period. The Panchatantra, a collection of fables was another popular work. The Sanskrit Dramas Mrichchhakatika and Mudra Rakshasa were also written during Gupta reign.`,
       `Celebrated astronomers Aryabhatta, who calculated the correct value of pi in AD 499, lived in this period. He also calculated the length of the solar year as 365.358 days and later postulated that the Earth was a sphere, rotating on it's own axis and revolving around the Sun, as well as the exact cause of eclipses. Varahamira showed the importance of decimal system in treatise Bhrihatasamhita, also flourished during Gupta period. The law books of Bruhaspati, Narada and many sections of Puranas (Sanskrit scriptures) were also written in this glorious period.`,
-      `The Gupta era (329-650 AD) was also golden age for Buddhist art. The political unity of India brought by Gupta emperors, in turn initiated an artistic unity which transcended regional boundaries. Uniform artistic standards came into effect which were set chiefly by workshops in Mathura and Sarnath, which produced some of the finest specimen of Buddhist art. Gupta style of art which was marked by a finished mastery in execution and a majestic serenity in expression was spread to other countries and greatly influenced Buddhist art all over Asia.`,
-      `Administration structure during the Gupta period was exceptionally good in spite of large empire. In the Gupta administration, the governors of the provinces were more independent as compared to the Mauryans. Land taxes increased in number. Trade with the Roman empire declined after the third century AD. Indian merchants began to rely more heavily on the south-east Asian trade. Instead of Roman gold, it was the South-East Asian countries which fueled Indian need for precious metals.`,
     ],
   },
 
@@ -487,60 +500,130 @@ const content = [
     type: 'figure', side: 'left',
     img: '/images/uploads/2019/12/Buddha-Late-5th-Century-819x1024.jpg',
     caption: 'Buddha, Late 5th Century, Mathura. Metropolitan museum of Arts',
-    text: null,
+    text: `The Gupta era (329-650 AD) was also golden age for Buddhist art. The political unity of India brought by Gupta emperors, in turn initiated an artistic unity which transcended regional boundaries. Uniform artistic standards came into effect which were set chiefly by workshops in Mathura and Sarnath, which produced some of the finest specimen of Buddhist art. Gupta style of art which was marked by a finished mastery in execution and a majestic serenity in expression was spread to other countries and greatly influenced Buddhist art all over Asia.`,
+  },
+
+  {
+    type: 'text',
+    paragraphs: [
+      `Administration structure during the Gupta period was exceptionally good in spite of large empire. In the Gupta administration, the governors of the provinces were more independent as compared to the Mauryans. Land taxes increased in number. Trade with the Roman empire declined after the third century AD. Indian merchants began to rely more heavily on the south-east Asian trade. Instead of Roman gold, it was the South-East Asian countries which fueled Indian need for precious metals.`,
+    ],
   },
 ];
 
+function renderBlock(block, i) {
+  switch (block.type) {
+    case 'heading':
+      return <h2 className="section-heading" key={i}>{block.text}</h2>;
+
+    case 'figure':
+      return (
+        <section
+          className={`media-row media-row--${block.side}${block.size === 'large' ? ' media-row--large' : ''}`}
+          key={i}
+        >
+          <figure className={`media-row__figure${block.size === 'large' ? ' media-row__figure--large' : ''}`}>
+            <img src={block.img} alt={block.caption || ''} loading="lazy" />
+            {block.caption && <figcaption>{block.caption}</figcaption>}
+          </figure>
+          {block.text && <p className="media-row__text">{block.text}</p>}
+        </section>
+      );
+
+    case 'image':
+      return (
+        <figure className="standalone-image" key={i}>
+          <img src={block.img} alt={block.caption || ''} loading="lazy" />
+          {block.caption && <figcaption>{block.caption}</figcaption>}
+        </figure>
+      );
+
+    case 'gallery':
+      return (
+        <section className={`coin-gallery${block.variant === 'wide' ? ' coin-gallery--wide' : ''}`} key={i}>
+          {block.images.map((im, j) => (
+            <figure className="coin-gallery__item" key={j}>
+              <img src={im.img} alt={im.caption || ''} loading="lazy" />
+              {im.caption && <figcaption>{im.caption}</figcaption>}
+            </figure>
+          ))}
+        </section>
+      );
+
+    case 'text':
+      return (
+        <section className="plain-text" key={i}>
+          {block.paragraphs.map((p, j) => <p key={j}>{p}</p>)}
+        </section>
+      );
+
+    case 'caption-block':
+      return (
+        <aside className="coin-caption" key={i}>
+          <p className="coin-caption__title">{block.title}</p>
+          {block.lines.map((l, j) => <p className="coin-caption__line" key={j}>{l}</p>)}
+        </aside>
+      );
+
+    default:
+      return null;
+  }
+}
+
 export default function GoldenAgeGupta() {
-  return (
-    <article className="page kushana-page">
-      {content.map((block, i) => {
-        switch (block.type) {
-          case 'heading':
-            return <h2 className="section-heading" key={i}>{block.text}</h2>;
+  const nodes = [];
 
-          case 'figure':
-            return (
-              <section className={`media-row media-row--${block.side}`} key={i}>
-                <figure className="media-row__figure">
-                  <img src={block.img} alt={block.caption || ''} loading="lazy" />
-                  {block.caption && <figcaption>{block.caption}</figcaption>}
-                </figure>
-                {block.text && <p className="media-row__text">{block.text}</p>}
-              </section>
-            );
+  for (let i = 0; i < content.length; i++) {
+    const block = content[i];
+    const next = content[i + 1];
 
-          case 'gallery':
-            return (
-              <section className="coin-gallery" key={i}>
-                {block.images.map((im, j) => (
-                  <figure className="coin-gallery__item" key={j}>
-                    <img src={im.img} alt={im.caption || ''} loading="lazy" />
-                    {im.caption && <figcaption>{im.caption}</figcaption>}
-                  </figure>
-                ))}
-              </section>
-            );
+    // Gallery immediately followed by a caption-block: images left, caption right
+    if (block.type === 'gallery' && next?.type === 'caption-block') {
+      nodes.push(
+        <section className="gallery-caption-row" key={i}>
+          <div className={`coin-gallery coin-gallery--paired${block.variant === 'wide' ? ' coin-gallery--wide' : ''}`}>
+            {block.images.map((im, j) => (
+              <figure className="coin-gallery__item" key={j}>
+                <img src={im.img} alt={im.caption || ''} loading="lazy" />
+                {im.caption && <figcaption>{im.caption}</figcaption>}
+              </figure>
+            ))}
+          </div>
+          <aside className="coin-caption coin-caption--paired">
+            <p className="coin-caption__title">{next.title}</p>
+            {next.lines.map((l, j) => <p className="coin-caption__line" key={j}>{l}</p>)}
+          </aside>
+        </section>
+      );
+      i += 1;
+      continue;
+    }
 
-          case 'text':
-            return (
-              <section className="plain-text" key={i}>
-                {block.paragraphs.map((p, j) => <p key={j}>{p}</p>)}
-              </section>
-            );
+    // Single coin figure immediately followed by a caption-block: image left, caption right,
+    // any paragraph text (if present) renders full-width below the row.
+    if (block.type === 'figure' && next?.type === 'caption-block') {
+      nodes.push(
+        <section className="coin-feature" key={i}>
+          <div className="coin-caption-row">
+            <figure
+              className={`media-row__figure media-row__figure--paired${block.size === 'large' ? ' media-row__figure--paired-large' : ''}`}
+            >
+              <img src={block.img} alt={block.caption || ''} loading="lazy" />
+            </figure>
+            <aside className="coin-caption coin-caption--paired">
+              <p className="coin-caption__title">{next.title}</p>
+              {next.lines.map((l, j) => <p className="coin-caption__line" key={j}>{l}</p>)}
+            </aside>
+          </div>
+          {block.text && <p className="coin-feature__text">{block.text}</p>}
+        </section>
+      );
+      i += 1;
+      continue;
+    }
 
-          case 'caption-block':
-            return (
-              <aside className="coin-caption" key={i}>
-                <p className="coin-caption__title">{block.title}</p>
-                {block.lines.map((l, j) => <p className="coin-caption__line" key={j}>{l}</p>)}
-              </aside>
-            );
+    nodes.push(renderBlock(block, i));
+  }
 
-          default:
-            return null;
-        }
-      })}
-    </article>
-  );
+  return <article className="page kushana-page">{nodes}</article>;
 }

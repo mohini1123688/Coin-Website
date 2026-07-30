@@ -194,3 +194,61 @@
     align-items: stretch;
   }
 }
+
+/* Stacked figure: paragraph on top, larger image centered below */
+.media-stack {
+  margin: 2.25rem 0;
+}
+.media-stack__text {
+  margin: 0 0 1.5rem;
+  color: var(--ink-soft);
+}
+.media-stack__figure {
+  margin: 0 auto;
+  max-width: 480px;
+}
+.media-stack__figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--gold-line);
+  box-shadow: var(--shadow);
+}
+.media-stack__figure img.stupa {
+  width: 100%;
+  height: auto;
+}
+.media-stack__figure figcaption {
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: var(--muted);
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Single coin figure + caption-block paired side-by-side */
+.coin-caption-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.coin-caption-row .coin-feature__figure--paired {
+  flex: none;
+  width: 10rem;
+  margin: 0;
+}
+
+.coin-caption-row .coin-caption_first--paired {
+  flex: 1 1 260px;
+  margin: 0;
+  align-self: center;
+}
+
+@media (max-width: 680px) {
+  .coin-caption-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

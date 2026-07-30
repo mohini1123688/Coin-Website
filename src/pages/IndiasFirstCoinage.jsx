@@ -221,6 +221,7 @@ const content = [
   {
     type: 'figure',
     side: 'left',
+    layout: 'stacked',
     img: '/images/uploads/2019/12/Stupa-of-Sanchi.jpeg',
     className: 'stupa',
     caption: 'Stupa of Sanchi',
@@ -277,6 +278,7 @@ export default function IndiasFirstCoinage() {
 
       case 'figure':
         if (block.coin) {
+          // unchanged coin branch — see step 2 for the paired version
           return (
             <section className="coin-feature" key={i}>
               <figure className="coin-feature__figure">
@@ -289,6 +291,22 @@ export default function IndiasFirstCoinage() {
                 {block.caption && <figcaption>{block.caption}</figcaption>}
               </figure>
               {block.text && <p className="coin-feature__text">{block.text}</p>}
+            </section>
+          );
+        }
+        if (block.layout === 'stacked') {
+          return (
+            <section className="media-stack" key={i}>
+              <p className="media-stack__text">{block.text}</p>
+              <figure className="media-stack__figure">
+                <img
+                  src={block.img}
+                  alt={block.caption || ''}
+                  loading="lazy"
+                  className={block.className || ''}
+                />
+                {block.caption && <figcaption>{block.caption}</figcaption>}
+              </figure>
             </section>
           );
         }
@@ -377,7 +395,32 @@ export default function IndiasFirstCoinage() {
           </aside>
         </section>
       );
-      i += 1; // consume the caption-block too, skip its normal render pass
+      i += 1;
+      continue;
+    }
+
+    // Pair a single coin figure with an immediately-following caption-block: image left, caption right
+    if (block.type === 'figure' && block.coin && next?.type === 'caption-block') {
+      nodes.push(
+        <section className="coin-feature" key={i}>
+          <div className="coin-caption-row">
+            <figure className="coin-feature__figure coin-feature__figure--paired">
+              <img
+                src={block.img}
+                alt={block.caption || ''}
+                loading="lazy"
+                className={block.className || ''}
+              />
+            </figure>
+            <aside className="coin-caption_first coin-caption_first--paired">
+              <p className="coin-caption__title_first">{next.title}</p>
+              {next.lines.map((l, j) => <p className="coin-caption__line_first" key={j}>{l}</p>)}
+            </aside>
+          </div>
+          {block.text && <p className="coin-feature__text">{block.text}</p>}
+        </section>
+      );
+      i += 1;
       continue;
     }
 
