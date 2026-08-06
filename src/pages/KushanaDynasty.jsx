@@ -4,7 +4,7 @@ const content = [
   { type: 'heading', text: 'Coins of Kushana Dynasty' },
 
   {
-    type: 'figure', side: 'left',
+    type: 'figure', side: 'left', size: 'large',
     img: '/images/uploads/2019/12/Three-headed-Shiva.jpg',
     caption: 'Three headed Lord Shiva, Votive panel of Kushan Period. Metropolitan museum of Art, New York',
     text: `The name Kushan is derived from the term Guishang, used in Chinese historical writings to describe one branch of the nomadic people, called Yuezhi or Yuechi. These nomads, who were of Indo-European stock, roamed the northwestern China but during 176-160 BC, they were driven west by another group, the Xiongnu. The political disturbance in central Asia (and possibly the availability of better and prosperous land and other resources) drove these nomads out into Bactria (modern northwest Afghanistan, Uzbekistan and Tajikistan). In 165 BC, few tribes settled in Oxus river (Amu Darya) valley and established independent existence.`,
@@ -168,7 +168,7 @@ const content = [
   { type: 'heading', text: 'KANISHKA (128-154 AD)' },
 
   {
-    type: 'figure', side: 'left',
+    type: 'figure', side: 'left', size: 'large',
     img: '/images/uploads/2019/12/Kanishka-statue.png',
     caption: 'Kanishka Statue, Mathura museum',
     text: `Vima's able son Kanishka followed and took control of this dynasty in 128 AD. Kanishka is the legendary ruler of ancient India and according to most historians, the greatest ruler of Kushan dynasty. He was the first ruler of the ancient world ever to show shoulder flames and nimbus around the royal head on his coins (giving himself the divine status). He and his descendants called themselves 'Devputra', which means son of god, who ruled Aryavarta, the India.`,
@@ -222,16 +222,15 @@ const content = [
   {
     type: 'text',
     paragraphs: [
-      `Apart from being a successful warrior, Kanishaka was certainly a man of great taste and superior knowledge. Although follower of early form of Hinduism, he patronized contemporary intellectuals including sage, Shakya-muni, who had introduced him to Buddhism. Kanishka summoned a great council of contemporary scholars and philosophers to examine the Buddhist scriptures and prepare commentaries on them. A celebrated philosopher, poet and dramatist Ashvaghosha, who wrote Buddha Charita, was in his court. He built many monuments, the most celebrated of all is the great Chaitya/Stupa, known as Shah-ji-ki-dheri stupa, at his capital Purushpur (Peshawar, which is located near the capital of modern Pakistan). This massive Stupa has been admired by many travelers down to late period. Chinese travellers Fa Hsien and Hsuan Tsang wrote detail description of Kanishka's temple building activity in Taxila and Gandhara (modern Pakistan). The casket/reliquary excavated from Kanishka's great stupa is shown on right. The lid of the casket shows the Buddha sitting on lotus pedestal, and worshiped by Brahma and Indra. It contained three bone fragments of the Buddha, which were sent to Myanmar/Burma by the British archaeologists, following the excavation.`,
+      `Apart from being a successful warrior, Kanishaka was certainly a man of great taste and superior knowledge. Although follower of early form of Hinduism, he patronized contemporary intellectuals including sage, Shakya-muni, who had introduced him to Buddhism. Kanishka summoned a great council of contemporary scholars and philosophers to examine the Buddhist scriptures and prepare commentaries on them. A celebrated philosopher, poet and dramatist Ashvaghosha, who wrote Buddha Charita, was in his court. He built many monuments, the most celebrated of all is the great Chaitya/Stupa, known as Shah-ji-ki-dheri stupa, at his capital Purushpur (Peshawar, which is located near the capital of modern Pakistan). This massive Stupa has been admired by many travelers down to late period. Chinese travellers Fa Hsien and Hsuan Tsang wrote detail description of Kanishka's temple building activity in Taxila and Gandhara (modern Pakistan). The casket/reliquary excavated from Kanishka's great stupa is shown below. The lid of the casket shows the Buddha sitting on lotus pedestal, and worshiped by Brahma and Indra. It contained three bone fragments of the Buddha, which were sent to Myanmar/Burma by the British archaeologists, following the excavation.`,
       `Kanishka minted coinage in two metals, gold and copper. Gold coins were minted in two denominations; Dinar (or stater) and quarter Dinars. Quarter Dinars are rare coins and and are considered as one of the finest example of miniature art. Two such rarities are shown below:`,
     ],
   },
 
   {
-    type: 'figure', side: 'left',
+    type: 'image',
     img: '/images/uploads/2019/12/Kanishkas-187x300.jpg',
     caption: "Kanishka's casket/reliquary",
-    text: null,
   },
 
   {
@@ -283,16 +282,15 @@ const content = [
     paragraphs: [
       `Huvishka succeeded Kanishka I. The record of his reign has been unearthed at Wardak, near Kabul. Huvishka built many magnificent monuments at Mathura. He was founder of a city Hushka in Kashmir named after him (described by Kalhan in his famous book, Rajatarangini). Kushana empire was at its zenith during Kanishka's and Huvishka's reign. Huvishka took many titles including 'Devaputra' (son of god) and perhaps was a patron of Mathura school of art. Dozens of breathtaking examples of this school of art can still be seen at Mathura museum.`,
       `Shown below is one outstanding example of Huvishka's gold stater/Dinar, obverse of which shows him emerging from clouds, emphasizing his divine status (just like Vima and Kanishka). He is wearing rounded helmet decorated with antlers and crest ornament, jeweled yoke and loose fitting tunic. He holds an ornamental mace in his left hand and Ankusha (elephant goad or royal scepter) in right. Flames emerge from right shoulder. King is sporting Galamucha (sideburn). The Bactrian legend reads, 'Shaonano Shao Ooeshki Koshano'(King of kings, Huvishka Kushan). On reverse is the Four armed Lord Shiva (OHPO in bactrian) standing, with Nandipada symbol in left field. Shiva holds the Damru (Drum), Kamandalu (Vase) in his right hands, and the trident in his upper left hand. The lower left hand, he holds the Mriga (his hunt), an Indian antelope, by horns.`,
-      `Very likely, Huvishka was a sophisticated ruler, his cosmopolitan outlook is amply evident in his coinage. His early coins portray him as a warrior, sporting a beard and brandishing weapon (as shown below). But the transition is seen; his later coins show him a handsome king with a imperial crown and bejeweled tunic, having elephant goad/mace in his hand. This transition from a nomadic warrior (below) to a King accustomed to court life of opulence (a specimen of this type shown on right), represents the only such example in Indian numismatic history.`,
+      `Very likely, Huvishka was a sophisticated ruler, his cosmopolitan outlook is amply evident in his coinage. His early coins portray him as a warrior, sporting a beard and brandishing weapon (as shown below). But the transition is seen; his later coins show him a handsome king with a imperial crown and bejeweled tunic, having elephant goad/mace in his hand. This transition from a nomadic warrior (below) to a King accustomed to court life of opulence (a specimen of this type shown below), represents the only such example in Indian numismatic history.`,
       `Huvishka minted coins with most variety, suggesting that his was the peaceful and prosperous reign. Although he has been patron of Hinayana Buddhism (record preserved in Mathura museum on pedestal of Bodhisattava sculpture), surprisingly, the coins showing Buddha were not minted by Huvishka.`,
     ],
   },
 
   {
-    type: 'figure', side: 'right',
+    type: 'image',
     img: '/images/uploads/2019/12/bodhi.png',
     caption: 'Bodhisattva, Kushan Period',
-    text: null,
   },
 
   {
@@ -435,10 +433,9 @@ const content = [
   },
 
   {
-    type: 'figure', side: 'right',
+    type: 'image',
     img: '/images/uploads/2019/12/Shiva-Kushan-1.jpg',
     caption: '3-Headed, 4/6-armed Shiva, Kushan Period, 3rd-4th Century, Found at Akhun Dheri; Peshawar Museum',
-    text: null,
   },
 
   {
@@ -525,7 +522,7 @@ const content = [
     paragraphs: [
       `The three headed Lord Shiva depicting coins are very special; interestingly the icon itself is well-represented in contemporary art as 'Trimurti'. One of the best example is shown above, on votive panels of Kushan period.`,
       `Lord Shiva, also known as Pashupati, is an earliest god that has been reliably shown to be worshiped in ancient India. He is a complex (and paradoxical) god depicted in multiple forms, both abstract (Shiv Linga) and anthropomorphic, where he is often shown with the vertical/horizontal third eye, moon crescent in his hair, and an erect phallus/penis. The three heads essentially symbolizes 3 distinct aspects of Shiva: creation, protection, and destruction. The right face often shows him a smiling female (or gentle male), a representation of Uma/Parvati, which symbolizes both creator and feminine side of Shiva. This face is also used as symbolism for Brahma, the creator. The left face, a mustached young man symbolizes the terrifying Aghora or Bhairava form of Lord Shiva, often known as Rudra-Shiva, the Destroyer. He has the third eye on his forehead, a primary weapon for destruction. The central face is calm (almost meditating) form that also symbolizes preserver, Lord Vishnu.`,
-      `An early sculpture of Shiva (identified as SadaShiva) carved in 4th-7th century and excavated from Salt Range of modern Pakistan (below left) and another sculpture recovered from Kashmir, India (on right) show excellent representation of these three forms of Shiva.`,
+      `An early sculpture of Shiva (identified as SadaShiva) carved in 4th-7th century and excavated from Salt Range of modern Pakistan and another sculpture recovered from Kashmir, India show excellent representation of these three forms of Shiva.`,
     ],
   },
 
@@ -537,16 +534,11 @@ const content = [
   },
 
   {
-    type: 'figure', side: 'right',
-    img: '/images/uploads/2019/12/shiva-4.jpg',
-    caption: null,
-    text: null,
-  },
-
-  {
     type: 'gallery',
+    variant: 'wide',
     images: [
       { img: '/images/uploads/2019/12/shiva-2.jpg', caption: '3 Headed Shiva at Gharapuri Caves, 6th Century' },
+      { img: '/images/uploads/2019/12/shiva-4.jpg', caption: '' },
       { img: '/images/uploads/2019/12/Harihara-berlin.jpg', caption: 'Harihara, Berlin Museum' },
     ],
   },
@@ -570,13 +562,14 @@ const content = [
     type: 'text',
     paragraphs: [
       `Interestingly, there are some extremely rare Kushan coins by Vasudeva that show the side heads to be boar and Lion (see above). This could be attempt to show two major deities of Hinduism, Lord Vishnu and Shiva in a single form, Harihara.`,
-      `Not surprisingly, one do find this representation in contemporary sculptures. On right is the incredible sculpture of Lord Vishnu carved out of white marble during rule of Hindu Shahi (Shahiya) Dynasties, 4-7th century CE. These successors of Kushan, ruled modern Pakistan & Afghanistan. He is holding holding a chakra in one hand, conch-shell in the other, his head flanked by two of his avatars, lion (Narashimha) and boar (Varaha).`,
-      `On far right is the complex form of Vishnu, first referred to by the name Vaikuntha in the seventh-century VishnuDharmottara Purana, is four-faced (chaturmurti), with the heads of a lion (right) and a boar (left) flanking a human head. He is also identifiable in this form by the epithet Para-Vasudeva, "the highest god". Carved on the back of the halo is the fourth face, a demonic, grimacing representation with fangs and a vertical third eye on the forehead.`,
+      `Not surprisingly, one do find this representation in contemporary sculptures. Below is the incredible sculpture of Lord Vishnu carved out of white marble during rule of Hindu Shahi (Shahiya) Dynasties, 4-7th century CE. These successors of Kushan, ruled modern Pakistan & Afghanistan. He is holding holding a chakra in one hand, conch-shell in the other, his head flanked by two of his avatars, lion (Narashimha) and boar (Varaha).`,
+      `The complex form of Vishnu, first referred to by the name Vaikuntha in the seventh-century VishnuDharmottara Purana, is four-faced (chaturmurti), with the heads of a lion (right) and a boar (left) flanking a human head. He is also identifiable in this form by the epithet Para-Vasudeva, "the highest god". Carved on the back of the halo is the fourth face, a demonic, grimacing representation with fangs and a vertical third eye on the forehead.`,
     ],
   },
 
   {
     type: 'gallery',
+    variant: 'wide',
     images: [
       { img: '/images/uploads/2019/12/vishnu-1-200x300.jpg', caption: 'Three headed Vishnu, 4-7 century AD, Afghanistan' },
       { img: '/images/uploads/2019/12/vishnu-2-222x300.jpg', caption: 'Vaikuntha Vishnu, 8th Century, Kashmir' },
@@ -626,7 +619,7 @@ const content = [
   {
     type: 'text',
     paragraphs: [
-      `Vashishaka was one of the last major ruler of Kushan dynasty. His coin depicting Shiva is shown above. After Vashishka the Kushan empire had completely disintegrated into few smaller kingdoms. By fourth century AD this dynasty went into total obscurity with advent of mighty Gupta emperors.`,
+      `Vashishaka was one of the last major ruler of Kushan dynasty. His coin depicting Shiva is shown below. After Vashishka the Kushan empire had completely disintegrated into few smaller kingdoms. By fourth century AD this dynasty went into total obscurity with advent of mighty Gupta emperors.`,
     ],
   },
 
@@ -681,56 +674,121 @@ const content = [
   },
 ];
 
+function renderBlock(block, i) {
+  switch (block.type) {
+    case 'heading':
+      return <h2 className="section-heading" key={i}>{block.text}</h2>;
+
+    case 'figure':
+      return (
+        <section
+          className={`media-row media-row--${block.side}${block.size === 'large' ? ' media-row--large' : ''}`}
+          key={i}
+        >
+          <figure className={`media-row__figure${block.size === 'large' ? ' media-row__figure--large' : ''}`}>
+            <img src={block.img} alt={block.caption || ''} loading="lazy" />
+            {block.caption && <figcaption>{block.caption}</figcaption>}
+          </figure>
+          {block.text && <p className="media-row__text">{block.text}</p>}
+        </section>
+      );
+
+    case 'image':
+      return (
+        <figure className="standalone-image" key={i}>
+          <img src={block.img} alt={block.caption || ''} loading="lazy" />
+          {block.caption && <figcaption>{block.caption}</figcaption>}
+        </figure>
+      );
+
+    case 'gallery':
+      return (
+        <section className={`coin-gallery${block.variant === 'wide' ? ' coin-gallery--wide' : ''}`} key={i}>
+          {block.images.map((im, j) => (
+            <figure className="coin-gallery__item" key={j}>
+              <img src={im.img} alt={im.caption || ''} loading="lazy" />
+              {im.caption && <figcaption>{im.caption}</figcaption>}
+            </figure>
+          ))}
+        </section>
+      );
+
+    case 'text':
+      return (
+        <section className="plain-text" key={i}>
+          {block.paragraphs.map((p, j) => <p key={j}>{p}</p>)}
+        </section>
+      );
+
+    case 'caption-block':
+      return (
+        <aside className="coin-caption" key={i}>
+          <p className="coin-caption__title">{block.title}</p>
+          {block.lines.map((l, j) => <p className="coin-caption__line" key={j}>{l}</p>)}
+        </aside>
+      );
+
+    default:
+      return null;
+  }
+}
+
 export default function KushanaDynasty() {
-  return (
-    <article className="page kushana-page">
-      {content.map((block, i) => {
-        switch (block.type) {
-          case 'heading':
-            return <h2 className="section-heading" key={i}>{block.text}</h2>;
+  const nodes = [];
 
-          case 'figure':
-            return (
-              <section className={`media-row media-row--${block.side}`} key={i}>
-                <figure className="media-row__figure">
-                  <img src={block.img} alt={block.caption || ''} loading="lazy" />
-                  {block.caption && <figcaption>{block.caption}</figcaption>}
-                </figure>
-                {block.text && <p className="media-row__text">{block.text}</p>}
-              </section>
-            );
+  for (let i = 0; i < content.length; i++) {
+    const block = content[i];
+    const next = content[i + 1];
 
-          case 'gallery':
-            return (
-              <section className="coin-gallery" key={i}>
-                {block.images.map((im, j) => (
-                  <figure className="coin-gallery__item" key={j}>
-                    <img src={im.img} alt={im.caption || ''} loading="lazy" />
-                    {im.caption && <figcaption>{im.caption}</figcaption>}
-                  </figure>
-                ))}
-              </section>
-            );
+    // Coin gallery (front + back coin images) immediately followed by a caption-block:
+    // images left, caption right. Only applies to actual coin (non-wide) galleries —
+    // wide/illustration galleries are never paired this way.
+    if (block.type === 'gallery' && block.variant !== 'wide' && next?.type === 'caption-block') {
+      nodes.push(
+        <section className="gallery-caption-row" key={i}>
+          <div className="coin-gallery coin-gallery--paired">
+            {block.images.map((im, j) => (
+              <figure className="coin-gallery__item" key={j}>
+                <img src={im.img} alt={im.caption || ''} loading="lazy" />
+                {im.caption && <figcaption>{im.caption}</figcaption>}
+              </figure>
+            ))}
+          </div>
+          <aside className="coin-caption coin-caption--paired">
+            <p className="coin-caption__title">{next.title}</p>
+            {next.lines.map((l, j) => <p className="coin-caption__line" key={j}>{l}</p>)}
+          </aside>
+        </section>
+      );
+      i += 1;
+      continue;
+    }
 
-          case 'text':
-            return (
-              <section className="plain-text" key={i}>
-                {block.paragraphs.map((p, j) => <p key={j}>{p}</p>)}
-              </section>
-            );
+    // Single coin figure immediately followed by a caption-block: image left, caption right,
+    // any paragraph text (if present) renders full-width below the row.
+    if (block.type === 'figure' && next?.type === 'caption-block') {
+      nodes.push(
+        <section className="coin-feature" key={i}>
+          <div className="coin-caption-row">
+            <figure
+              className={`media-row__figure media-row__figure--paired${block.size === 'large' ? ' media-row__figure--paired-large' : ''}`}
+            >
+              <img src={block.img} alt={block.caption || ''} loading="lazy" />
+            </figure>
+            <aside className="coin-caption coin-caption--paired">
+              <p className="coin-caption__title">{next.title}</p>
+              {next.lines.map((l, j) => <p className="coin-caption__line" key={j}>{l}</p>)}
+            </aside>
+          </div>
+          {block.text && <p className="coin-feature__text">{block.text}</p>}
+        </section>
+      );
+      i += 1;
+      continue;
+    }
 
-          case 'caption-block':
-            return (
-              <aside className="coin-caption" key={i}>
-                <p className="coin-caption__title">{block.title}</p>
-                {block.lines.map((l, j) => <p className="coin-caption__line" key={j}>{l}</p>)}
-              </aside>
-            );
+    nodes.push(renderBlock(block, i));
+  }
 
-          default:
-            return null;
-        }
-      })}
-    </article>
-  );
+  return <article className="page kushana-page">{nodes}</article>;
 }
